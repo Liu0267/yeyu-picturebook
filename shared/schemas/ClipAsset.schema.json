@@ -1,0 +1,157 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "clip_id": {
+      "title": "Clip Id",
+      "type": "string"
+    },
+    "book_id": {
+      "title": "Book Id",
+      "type": "string"
+    },
+    "page_id": {
+      "title": "Page Id",
+      "type": "string"
+    },
+    "shot_id": {
+      "title": "Shot Id",
+      "type": "string"
+    },
+    "manifest_revision": {
+      "title": "Manifest Revision",
+      "type": "integer"
+    },
+    "page_revision": {
+      "title": "Page Revision",
+      "type": "integer"
+    },
+    "asset_version": {
+      "minimum": 1,
+      "title": "Asset Version",
+      "type": "integer"
+    },
+    "duration_ms": {
+      "exclusiveMinimum": 0,
+      "title": "Duration Ms",
+      "type": "integer"
+    },
+    "status": {
+      "enum": [
+        "needs_review",
+        "approved",
+        "failed",
+        "expired"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "asset_id": {
+      "title": "Asset Id",
+      "type": "string"
+    },
+    "is_mock": {
+      "title": "Is Mock",
+      "type": "boolean"
+    },
+    "provenance": {
+      "enum": [
+        "synthetic_mock",
+        "model_generated"
+      ],
+      "title": "Provenance",
+      "type": "string"
+    },
+    "motion_status": {
+      "default": "not_assessed",
+      "enum": [
+        "not_assessed",
+        "passed",
+        "failed",
+        "not_required"
+      ],
+      "title": "Motion Status",
+      "type": "string"
+    },
+    "run_id": {
+      "title": "Run Id",
+      "type": "string"
+    },
+    "model_call_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Model Call Id"
+    },
+    "reviewed_by": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Reviewed By"
+    },
+    "audio_asset_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Audio Asset Id"
+    },
+    "subtitle_asset_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Subtitle Asset Id"
+    },
+    "source_video_asset_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Source Video Asset Id"
+    }
+  },
+  "required": [
+    "clip_id",
+    "book_id",
+    "page_id",
+    "shot_id",
+    "manifest_revision",
+    "page_revision",
+    "asset_version",
+    "duration_ms",
+    "status",
+    "asset_id",
+    "is_mock",
+    "provenance",
+    "run_id"
+  ],
+  "title": "ClipAsset",
+  "type": "object"
+}

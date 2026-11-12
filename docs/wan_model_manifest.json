@@ -1,0 +1,33 @@
+{
+  "huggingface": [
+    {
+      "repo_id": "QuantStack/Wan2.2-TI2V-5B-GGUF",
+      "revision": "57437632ddd08bdcbd1508c866aa22e126ed51d2",
+      "filename": "Wan2.2-TI2V-5B-Q4_K_S.gguf",
+      "size": 3116380512,
+      "sha256": "ab4195ecd022e57455672771d8ec14c2589efc9ddd6b96c3578fbb326797bdbb",
+      "license": "apache-2.0"
+    },
+    {
+      "repo_id": "city96/umt5-xxl-encoder-gguf",
+      "revision": "b535255bee98c2b0a59ea7c0ae2dcd0c6657b3b7",
+      "filename": "umt5-xxl-encoder-Q4_K_M.gguf",
+      "size": 3655145312,
+      "sha256": "17cf97a5bbbc60a646d6105b832b6f657ce904a8a1ad970e4b59df0c67584a40",
+      "license": "apache-2.0"
+    }
+  ],
+  "taehv": {
+    "filename": "taew2_2.safetensors",
+    "revision": "9055eee0391548d1787938d040a161cbe396bf98",
+    "url": "https://raw.githubusercontent.com/madebyollin/taehv/9055eee0391548d1787938d040a161cbe396bf98/safetensors/taew2_2.safetensors",
+    "sha256": "b84609b2a133d48434bd9636bfcb44bf05168dc436e2d3cecf26256faa1f5325",
+    "size": 22848048,
+    "license": "MIT"
+  },
+  "runtime": {
+    "repository": "https://github.com/leejet/stable-diffusion.cpp.git",
+    "revision": "77b72a2efed78f55de26892c7e909cee001e8b83",
+    "license": "MIT"
+  }
+}

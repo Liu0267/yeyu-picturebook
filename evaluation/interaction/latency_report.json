@@ -1,0 +1,29 @@
+{
+ "generated_at": "2026-11-12T12:40:48",
+ "segments": {
+  "qa_results_dev": {
+   "n": 29,
+   "accuracy": 1.0,
+   "qa_ms": {
+    "p50": 0,
+    "p95": 0,
+    "max": 1
+   }
+  },
+  "qa_results_sealed": {
+   "n": 40,
+   "accuracy": 0.975,
+   "qa_ms": {
+    "p50": 0.0,
+    "p95": 0,
+    "max": 0
+   }
+  },
+  "touch": {
+   "n": 68,
+   "accuracy": 1.0,
+   "inside_rate": 1.0,
+   "outside_rate": 1.0
+  }
+ }
+}

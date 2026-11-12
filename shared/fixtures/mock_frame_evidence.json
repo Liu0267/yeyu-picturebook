@@ -1,0 +1,71 @@
+[
+  {
+    "frame_id": "clip_576e5e1e055e46f8af60cf5064157339_v1_f1",
+    "clip_id": "clip_576e5e1e055e46f8af60cf5064157339",
+    "asset_version": 1,
+    "t_ms": 0,
+    "image_asset_id": "asset_cc60a670aa57c9d3b7473ea9",
+    "video_sha256": "74c90c6e8941d27790971f4757bdc63ac1e6ee864559eefe1e32ecf4730bb07f",
+    "visual_claims": [
+      {
+        "claim": "中央是展开的书形图案，顶部有MOCK测试标识。",
+        "region": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "observed_by": "assistant_actual_mock_frame_review",
+        "method": "vlm_frame_review"
+      }
+    ],
+    "status": "reviewed",
+    "is_mock": true
+  },
+  {
+    "frame_id": "clip_576e5e1e055e46f8af60cf5064157339_v1_f2",
+    "clip_id": "clip_576e5e1e055e46f8af60cf5064157339",
+    "asset_version": 1,
+    "t_ms": 1500,
+    "image_asset_id": "asset_faa4ce2bcd1f877eff10c278",
+    "video_sha256": "74c90c6e8941d27790971f4757bdc63ac1e6ee864559eefe1e32ecf4730bb07f",
+    "visual_claims": [
+      {
+        "claim": "中央是展开的书形图案，顶部有MOCK测试标识。",
+        "region": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "observed_by": "assistant_actual_mock_frame_review",
+        "method": "vlm_frame_review"
+      }
+    ],
+    "status": "reviewed",
+    "is_mock": true
+  },
+  {
+    "frame_id": "clip_576e5e1e055e46f8af60cf5064157339_v1_f3",
+    "clip_id": "clip_576e5e1e055e46f8af60cf5064157339",
+    "asset_version": 1,
+    "t_ms": 2900,
+    "image_asset_id": "asset_91134a2505bd054d92195da7",
+    "video_sha256": "74c90c6e8941d27790971f4757bdc63ac1e6ee864559eefe1e32ecf4730bb07f",
+    "visual_claims": [
+      {
+        "claim": "中央是展开的书形图案，顶部有MOCK测试标识。",
+        "region": {
+          "x1": 0.0,
+          "y1": 0.0,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "observed_by": "assistant_actual_mock_frame_review",
+        "method": "vlm_frame_review"
+      }
+    ],
+    "status": "reviewed",
+    "is_mock": true
+  }
+]

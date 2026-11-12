@@ -1,0 +1,85 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "narration_id": {
+      "title": "Narration Id",
+      "type": "string"
+    },
+    "book_id": {
+      "title": "Book Id",
+      "type": "string"
+    },
+    "page_id": {
+      "title": "Page Id",
+      "type": "string"
+    },
+    "page_revision": {
+      "title": "Page Revision",
+      "type": "integer"
+    },
+    "shot_id": {
+      "title": "Shot Id",
+      "type": "string"
+    },
+    "run_id": {
+      "title": "Run Id",
+      "type": "string"
+    },
+    "model_id": {
+      "title": "Model Id",
+      "type": "string"
+    },
+    "audio_asset_id": {
+      "title": "Audio Asset Id",
+      "type": "string"
+    },
+    "text": {
+      "title": "Text",
+      "type": "string"
+    },
+    "speaker": {
+      "title": "Speaker",
+      "type": "string"
+    },
+    "duration_ms": {
+      "exclusiveMinimum": 0,
+      "title": "Duration Ms",
+      "type": "integer"
+    },
+    "sample_rate": {
+      "exclusiveMinimum": 0,
+      "title": "Sample Rate",
+      "type": "integer"
+    },
+    "status": {
+      "default": "needs_review",
+      "enum": [
+        "needs_review",
+        "expired"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "is_mock": {
+      "default": false,
+      "title": "Is Mock",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "narration_id",
+    "book_id",
+    "page_id",
+    "page_revision",
+    "shot_id",
+    "run_id",
+    "model_id",
+    "audio_asset_id",
+    "text",
+    "speaker",
+    "duration_ms",
+    "sample_rate"
+  ],
+  "title": "NarrationAsset",
+  "type": "object"
+}

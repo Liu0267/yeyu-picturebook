@@ -1,0 +1,37 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "path": "/v1/health",
+      "status": 200
+    },
+    {
+      "path": "/v1/books/book_cat/manifest",
+      "status": 200
+    },
+    {
+      "path": "/v1/books/book_cat/narrations",
+      "status": 200
+    },
+    {
+      "path": "/v1/pages/book_cat_p008/understandings",
+      "status": 200
+    },
+    {
+      "path": "/v1/books/book_cat/clips",
+      "status": 200
+    },
+    {
+      "path": "/openapi.json",
+      "status": 200
+    },
+    {
+      "path": "actual_tts_audio_range",
+      "status": 206,
+      "bytes": 100
+    }
+  ],
+  "local_vlm_drafts": 2,
+  "real_tts_assets": 1,
+  "published_real_clips": 0
+}

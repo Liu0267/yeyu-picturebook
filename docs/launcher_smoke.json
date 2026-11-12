@@ -1,0 +1,6 @@
+{
+  "script": "启动本地服务.command",
+  "api_status": 200,
+  "worker_lock_present": true,
+  "worker_lock_active": true
+}

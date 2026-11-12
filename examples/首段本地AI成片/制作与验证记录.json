@@ -1,0 +1,179 @@
+{
+  "version": "0.3.0",
+  "source": {
+    "book_id": "book_cat",
+    "page_id": "book_cat_p008",
+    "file_page": 8,
+    "printed_page": "4",
+    "page_revision": 2
+  },
+  "video_generation": {
+    "run_id": "run_38c646bfd2d04718899ab806fecc08eb",
+    "model": "Wan2.2-TI2V-5B-Q4_K_S+TAEHV-9055eee",
+    "runtime_commit": "77b72a2efed78f55de26892c7e909cee001e8b83",
+    "width": 512,
+    "height": 384,
+    "fps": 8,
+    "frames": 33,
+    "duration_ms": 4125,
+    "usage": {
+      "external_calls": 0,
+      "external_api_cost": 0,
+      "local_inference_ms": 1803024,
+      "requested_frames": 33,
+      "fps": 8,
+      "width": 512,
+      "height": 384
+    },
+    "source_video_sha256": "885b85e136015701b3e57ae0e418ad033935bf84e2d6e5bd4f1669ee61c96aa6",
+    "all_frames_reviewed_by": "assistant_actual_frame_review",
+    "motion_assessment": "very subtle; insufficient to claim large-motion demo quality"
+  },
+  "narration": {
+    "run_id": "run_39fd92e263ef4672881a5fc7685fe4df",
+    "model": "Qwen3-TTS-1.7B-CustomVoice-4bit",
+    "text": "穿靴子的猫趴在树旁，等候着。",
+    "usage": {
+      "local_inference_ms": 16883,
+      "peak_memory_bytes": 4966854447,
+      "external_calls": 0,
+      "audio_duration_ms": 5760,
+      "subtitle_start_ms": 200,
+      "subtitle_end_ms": 5960,
+      "requested_tail_extension_ms": 2085,
+      "tail_extension_ms": 2125,
+      "actual_video_duration_ms": 6250,
+      "alignment": "single_utterance_actual_waveform_duration"
+    },
+    "asr": {
+      "method": "local_whisper_small_independent_transcription",
+      "expected_text": "穿靴子的猫趴在树旁，等候着。",
+      "recognized_text": "穿靴子的猫,趴在樹旁,等候着。",
+      "normalized_match": false,
+      "elapsed_s": 9.019,
+      "external_calls": 0,
+      "limitation": "单句辅助听写，不是人工听音或全书准确率。",
+      "segments": [
+        {
+          "start": 0.0,
+          "end": 5.8,
+          "text": "穿靴子的猫,趴在樹旁,等候着。",
+          "words": [
+            {
+              "word": "穿",
+              "start": 0.0,
+              "end": 0.7,
+              "probability": 0.9765625
+            },
+            {
+              "word": "靴",
+              "start": 0.7,
+              "end": 1.04,
+              "probability": 0.6416015625
+            },
+            {
+              "word": "子",
+              "start": 1.04,
+              "end": 1.28,
+              "probability": 0.99951171875
+            },
+            {
+              "word": "的",
+              "start": 1.28,
+              "end": 1.4,
+              "probability": 0.99267578125
+            },
+            {
+              "word": "猫,",
+              "start": 1.4,
+              "end": 2.36,
+              "probability": 0.8212890625
+            },
+            {
+              "word": "趴",
+              "start": 2.48,
+              "end": 2.84,
+              "probability": 0.88525390625
+            },
+            {
+              "word": "在",
+              "start": 2.84,
+              "end": 3.1,
+              "probability": 0.9990234375
+            },
+            {
+              "word": "樹",
+              "start": 3.1,
+              "end": 3.42,
+              "probability": 0.63916015625
+            },
+            {
+              "word": "旁,",
+              "start": 3.42,
+              "end": 4.16,
+              "probability": 0.998046875
+            },
+            {
+              "word": "等",
+              "start": 4.76,
+              "end": 5.08,
+              "probability": 0.99609375
+            },
+            {
+              "word": "候",
+              "start": 5.08,
+              "end": 5.54,
+              "probability": 0.99072265625
+            },
+            {
+              "word": "着。",
+              "start": 5.54,
+              "end": 5.8,
+              "probability": 0.51904296875
+            }
+          ]
+        }
+      ],
+      "orthography_review": {
+        "method": "assistant_explicit_single_character_orthography_comparison",
+        "mapping": {
+          "樹": "树"
+        },
+        "equivalent_after_mapping": true,
+        "note": "保留原始听写和normalized_match=false；仅樹/树字形与标点差异，不修改原始识别结果，不代替人工试听。"
+      }
+    }
+  },
+  "canonical_clip": {
+    "clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+    "book_id": "book_cat",
+    "page_id": "book_cat_p008",
+    "shot_id": "book_cat_p008_r2_wan4s",
+    "manifest_revision": 2,
+    "page_revision": 2,
+    "asset_version": 2,
+    "duration_ms": 6250,
+    "status": "approved",
+    "asset_id": "asset_a1a9f89de9848b20929ee08b",
+    "is_mock": false,
+    "provenance": "model_generated",
+    "run_id": "run_39fd92e263ef4672881a5fc7685fe4df",
+    "model_call_id": "run_38c646bfd2d04718899ab806fecc08eb",
+    "reviewed_by": "assistant_actual_frame_review_2026-11-10",
+    "audio_asset_id": "asset_0d1bf9cb425791d98b44216e",
+    "subtitle_asset_id": "asset_ee5fa744210910c416c3f1a0",
+    "source_video_asset_id": "asset_885b85e136015701b3e57ae0"
+  },
+  "canonical_video_sha256": "a1a9f89de9848b20929ee08b0ae2949617566f0a8c1367c8e031ca0245e8bc3b",
+  "final_frame_pts_ms": [
+    0,
+    3125,
+    6125
+  ],
+  "visual_review": "assistant_actual_decoded_frame_review; approved for development API",
+  "human_audiovisual_acceptance": "pending",
+  "local_source_uploads": 0,
+  "external_api_calls_for_successful_local_pipeline": 0,
+  "cloud_billing": "Agnes bill unavailable; prior cloud failures do not prove zero spend",
+  "tests_passed": 39
+}

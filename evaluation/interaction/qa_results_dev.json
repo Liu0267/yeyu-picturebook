@@ -1,0 +1,564 @@
+{
+ "dataset": "dev",
+ "total": 29,
+ "passed": 29,
+ "accuracy": 1.0,
+ "by_type": {
+  "book_title": {
+   "n": 2,
+   "passed": 2,
+   "p95_ms": 0
+  },
+  "book_fact": {
+   "n": 13,
+   "passed": 13,
+   "p95_ms": 0
+  },
+  "video": {
+   "n": 3,
+   "passed": 3,
+   "p95_ms": 0
+  },
+  "unanswerable": {
+   "n": 6,
+   "passed": 6,
+   "p95_ms": 0
+  },
+  "entity": {
+   "n": 5,
+   "passed": 5,
+   "p95_ms": 0
+  }
+ },
+ "wall_ms": 7,
+ "rows": [
+  {
+   "qid": "book_ocean_title",
+   "qtype": "book_title",
+   "question": "这本书的名字是什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "这本书是《海洋女神》。",
+   "status": "answered",
+   "method": "book_title",
+   "evidence": [
+    {
+     "id": "book_ocean",
+     "source": "book",
+     "page_id": null
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_emil_fact_book_emil_fact06",
+   "qtype": "book_fact",
+   "question": "书里关于木头枪和帽子说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：木头枪和帽子是埃米尔心爱的两件东西。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_emil_fact06",
+     "source": "book",
+     "page_id": "book_emil_p007",
+     "printed_page": "4",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 1
+  },
+  {
+   "qid": "book_pippi_fact_book_pippi_fact06",
+   "qtype": "book_fact",
+   "question": "书里关于插图中的皮皮说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：插图中的皮皮有红色辫子，穿蓝色衣服。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_pippi_fact06",
+     "source": "book",
+     "page_id": "book_pippi_p006",
+     "printed_page": "2",
+     "fact_kind": "visual_observation"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_ocean_fact_book_ocean_fact03",
+   "qtype": "book_fact",
+   "question": "书里关于海岛上有金色说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：海岛上有金色的田野。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_ocean_fact03",
+     "source": "book",
+     "page_id": "book_ocean_p005",
+     "printed_page": "2—3",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_cat_frame_27c3_v2_f1",
+   "qtype": "video",
+   "question": "画面里有什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "画面里，黄色条纹猫横卧在绿色草地上，右侧为树干。",
+   "status": "answered",
+   "method": "extractive_frame",
+   "evidence": [
+    {
+     "id": "clip_3a59f686e1c34517a82d53c45ca327c3_v2_f1",
+     "source": "frame",
+     "clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+     "version": 2,
+     "ms": 0
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_pippi_unans_0",
+   "qtype": "unanswerable",
+   "question": "为什么天空是蓝色的？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "这段内容里没有足够的依据。可以换个问法，或回到前一页看看。",
+   "status": "uncertain",
+   "method": "rule_unsupported",
+   "evidence": [],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_ocean_unans_2",
+   "qtype": "unanswerable",
+   "question": "猫可以活多少年？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "这段内容里没有足够的依据。可以换个问法，或回到前一页看看。",
+   "status": "uncertain",
+   "method": "rule_unsupported",
+   "evidence": [],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_emil_unans_2",
+   "qtype": "unanswerable",
+   "question": "猫可以活多少年？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "这段内容里没有足够的依据。可以换个问法，或回到前一页看看。",
+   "status": "uncertain",
+   "method": "rule_unsupported",
+   "evidence": [],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_emil_entity_book_emil_alfred",
+   "qtype": "entity",
+   "question": "阿尔弗雷德长什么样子？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：阿尔弗雷德给埃米尔削了一把木头枪。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_emil_fact04",
+     "source": "book",
+     "page_id": "book_emil_p007",
+     "printed_page": "4",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_pippi_unans_2",
+   "qtype": "unanswerable",
+   "question": "猫可以活多少年？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "这段内容里没有足够的依据。可以换个问法，或回到前一页看看。",
+   "status": "uncertain",
+   "method": "rule_unsupported",
+   "evidence": [],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_cat_frame_27c3_v2_f2",
+   "qtype": "video",
+   "question": "视频里刚才发生了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "画面里，黄色条纹猫横卧在绿色草地上，右侧为树干。",
+   "status": "answered",
+   "method": "extractive_frame",
+   "evidence": [
+    {
+     "id": "clip_3a59f686e1c34517a82d53c45ca327c3_v2_f2",
+     "source": "frame",
+     "clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+     "version": 2,
+     "ms": 3125
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_pippi_fact_book_pippi_fact04",
+   "qtype": "book_fact",
+   "question": "书里关于长袜子皮皮能说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：长袜子皮皮能举起一匹活马。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_pippi_fact04",
+     "source": "book",
+     "page_id": "book_pippi_p006",
+     "printed_page": "2",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_cat_fact_book_cat_fact02",
+   "qtype": "book_fact",
+   "question": "书里关于猫向主人要一说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：猫向主人要一双靴子、一件衣服和一只大口袋。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_cat_fact02",
+     "source": "book",
+     "page_id": "book_cat_p006",
+     "printed_page": "2",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_cat_fact_book_cat_fact03",
+   "qtype": "book_fact",
+   "question": "书里关于猫穿上靴子说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：猫穿上靴子，背着大口袋进入森林。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_cat_fact03",
+     "source": "book",
+     "page_id": "book_cat_p008",
+     "printed_page": "4",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_emil_fact_book_emil_v04_fact1",
+   "qtype": "book_fact",
+   "question": "书里关于男孩的故事发说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：男孩的故事发生在瑞典斯莫兰省伦纳贝里教区。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_emil_v04_fact1",
+     "source": "book",
+     "page_id": "book_emil_p005",
+     "printed_page": "第6页",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_emil_unans_1",
+   "qtype": "unanswerable",
+   "question": "这本书有多少个字？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "这段内容里没有足够的依据。可以换个问法，或回到前一页看看。",
+   "status": "uncertain",
+   "method": "rule_unsupported",
+   "evidence": [],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_cat_fact_book_cat_fact06",
+   "qtype": "book_fact",
+   "question": "书里关于插图中说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：插图中，一只白色兔子在装有胡萝卜的袋口附近。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_cat_fact06",
+     "source": "book",
+     "page_id": "book_cat_p009",
+     "printed_page": "5",
+     "fact_kind": "visual_observation"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_emil_entity_book_emil_ida",
+   "qtype": "entity",
+   "question": "伊达长什么样子？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：埃米尔和爸爸、妈妈、小妹妹伊达住在一起。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_emil_fact01",
+     "source": "book",
+     "page_id": "book_emil_p006",
+     "printed_page": "3",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_pippi_fact_book_pippi_fact05",
+   "qtype": "book_fact",
+   "question": "书里关于皮皮有满满一说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：皮皮有满满一大口袋金币。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_pippi_fact05",
+     "source": "book",
+     "page_id": "book_pippi_p006",
+     "printed_page": "2",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_pippi_entity_book_pippi_tommy",
+   "qtype": "entity",
+   "question": "杜米长什么样子？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：杜米和阿妮卡都希望有一个玩伴。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_pippi_fact02",
+     "source": "book",
+     "page_id": "book_pippi_p005",
+     "printed_page": "1",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_ocean_fact_book_ocean_fact05",
+   "qtype": "book_fact",
+   "question": "书里关于巴斯蒂安每天说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：巴斯蒂安每天和兄弟们驾船出海寻找村民需要的鱼类。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_ocean_fact05",
+     "source": "book",
+     "page_id": "book_ocean_p006",
+     "printed_page": "4—5",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_cat_fact_book_cat_fact07",
+   "qtype": "book_fact",
+   "question": "书里关于猫来到皇宫说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：猫来到皇宫，向国王献上兔子，并称这是主人送来的礼物。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_cat_fact07",
+     "source": "book",
+     "page_id": "book_cat_p010",
+     "printed_page": "第11页",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_ocean_entity_book_ocean_bastien",
+   "qtype": "entity",
+   "question": "巴斯蒂安长什么样子？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：巴斯蒂安家中祖祖辈辈以打渔为生。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_ocean_fact04",
+     "source": "book",
+     "page_id": "book_ocean_p006",
+     "printed_page": "4—5",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_cat_unans_2",
+   "qtype": "unanswerable",
+   "question": "猫可以活多少年？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "这段内容里没有足够的依据。可以换个问法，或回到前一页看看。",
+   "status": "uncertain",
+   "method": "rule_unsupported",
+   "evidence": [],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_emil_fact_book_emil_v04_fact2",
+   "qtype": "book_fact",
+   "question": "书里关于埃米尔把小妹说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：埃米尔把小妹妹伊达升到了自家庄园的旗杆顶上。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_emil_v04_fact2",
+     "source": "book",
+     "page_id": "book_emil_p008",
+     "printed_page": "第9页",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_emil_entity_book_emil_emil",
+   "qtype": "entity",
+   "question": "埃米尔长什么样子？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：埃米尔住在卡特胡尔特庄园。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_emil_fact02",
+     "source": "book",
+     "page_id": "book_emil_p006",
+     "printed_page": "3",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_emil_title",
+   "qtype": "book_title",
+   "question": "这本书的名字是什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "这本书是《好一个埃米尔》。",
+   "status": "answered",
+   "method": "book_title",
+   "evidence": [
+    {
+     "id": "book_emil",
+     "source": "book",
+     "page_id": null
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_cat_fact_book_cat_fact04",
+   "qtype": "book_fact",
+   "question": "书里关于猫敞开大口袋说了什么？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "书里说：猫敞开大口袋，趴在地上等待。",
+   "status": "answered",
+   "method": "extractive_fact",
+   "evidence": [
+    {
+     "id": "book_cat_fact04",
+     "source": "book",
+     "page_id": "book_cat_p008",
+     "printed_page": "4",
+     "fact_kind": "text_explicit"
+    }
+   ],
+   "elapsed_ms": 0
+  },
+  {
+   "qid": "book_cat_frame_27c3_v2_f3",
+   "qtype": "video",
+   "question": "画面里有什么东西？",
+   "passed": true,
+   "fail_reason": null,
+   "answer": "画面里，黄色条纹猫横卧在绿色草地上，右侧为树干。",
+   "status": "answered",
+   "method": "extractive_frame",
+   "evidence": [
+    {
+     "id": "clip_3a59f686e1c34517a82d53c45ca327c3_v2_f3",
+     "source": "frame",
+     "clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+     "version": 2,
+     "ms": 6125
+    }
+   ],
+   "elapsed_ms": 0
+  }
+ ]
+}

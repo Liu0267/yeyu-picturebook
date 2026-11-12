@@ -1,0 +1,48 @@
+{
+  "$defs": {
+    "CompilationItem": {
+      "additionalProperties": false,
+      "properties": {
+        "clip_id": {
+          "title": "Clip Id",
+          "type": "string"
+        },
+        "asset_version": {
+          "minimum": 1,
+          "title": "Asset Version",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "clip_id",
+        "asset_version"
+      ],
+      "title": "CompilationItem",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "items": {
+      "items": {
+        "$ref": "#/$defs/CompilationItem"
+      },
+      "maxItems": 30,
+      "minItems": 2,
+      "title": "Items",
+      "type": "array"
+    },
+    "idempotency_key": {
+      "maxLength": 200,
+      "minLength": 1,
+      "title": "Idempotency Key",
+      "type": "string"
+    }
+  },
+  "required": [
+    "items",
+    "idempotency_key"
+  ],
+  "title": "CompilationCreate",
+  "type": "object"
+}

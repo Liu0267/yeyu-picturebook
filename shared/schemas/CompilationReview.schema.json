@@ -1,0 +1,101 @@
+{
+  "$defs": {
+    "Region": {
+      "additionalProperties": false,
+      "properties": {
+        "x1": {
+          "default": 0,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "X1",
+          "type": "number"
+        },
+        "y1": {
+          "default": 0,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Y1",
+          "type": "number"
+        },
+        "x2": {
+          "default": 1,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "X2",
+          "type": "number"
+        },
+        "y2": {
+          "default": 1,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Y2",
+          "type": "number"
+        }
+      },
+      "title": "Region",
+      "type": "object"
+    },
+    "VisualClaim": {
+      "additionalProperties": false,
+      "properties": {
+        "claim": {
+          "title": "Claim",
+          "type": "string"
+        },
+        "region": {
+          "$ref": "#/$defs/Region"
+        },
+        "observed_by": {
+          "title": "Observed By",
+          "type": "string"
+        },
+        "method": {
+          "enum": [
+            "human_frame_review",
+            "vlm_frame_review"
+          ],
+          "title": "Method",
+          "type": "string"
+        }
+      },
+      "required": [
+        "claim",
+        "region",
+        "observed_by",
+        "method"
+      ],
+      "title": "VisualClaim",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "expected_asset_version": {
+      "minimum": 1,
+      "title": "Expected Asset Version",
+      "type": "integer"
+    },
+    "reviewer": {
+      "minLength": 1,
+      "title": "Reviewer",
+      "type": "string"
+    },
+    "claims_by_frame": {
+      "additionalProperties": {
+        "items": {
+          "$ref": "#/$defs/VisualClaim"
+        },
+        "type": "array"
+      },
+      "title": "Claims By Frame",
+      "type": "object"
+    }
+  },
+  "required": [
+    "expected_asset_version",
+    "reviewer",
+    "claims_by_frame"
+  ],
+  "title": "CompilationReview",
+  "type": "object"
+}

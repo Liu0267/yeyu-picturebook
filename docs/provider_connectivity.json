@@ -1,0 +1,12 @@
+{
+  "observed_date": "2026-11-10",
+  "endpoint": "https://apihub.agnes-ai.com/v1/models",
+  "observed_http_status": 200,
+  "video_model_ids": [
+    "agnes-video-2.5-flash",
+    "agnes-video-2.5"
+  ],
+  "full_response_stored": false,
+  "credential_included": false,
+  "video_post_result": "HTTP503 without confirmed task id"
+}

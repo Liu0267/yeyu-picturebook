@@ -1,0 +1,37 @@
+[
+  {
+    "book_id": "book_cat",
+    "page_count": 27,
+    "sample_source": "user supplied digital PDF/EPUB, not camera photos",
+    "file_sequence_complete": true,
+    "printed_sequence_status": "not fully reviewed; no missing-page claim",
+    "flag_counts": {}
+  },
+  {
+    "book_id": "book_emil",
+    "page_count": 36,
+    "sample_source": "user supplied digital PDF/EPUB, not camera photos",
+    "file_sequence_complete": true,
+    "printed_sequence_status": "not fully reviewed; no missing-page claim",
+    "flag_counts": {}
+  },
+  {
+    "book_id": "book_ocean",
+    "page_count": 25,
+    "sample_source": "user supplied digital PDF/EPUB, not camera photos",
+    "file_sequence_complete": true,
+    "printed_sequence_status": "not fully reviewed; no missing-page claim",
+    "flag_counts": {
+      "possible_occlusion_or_dark_border": 6,
+      "exact_duplicate_image": 1
+    }
+  },
+  {
+    "book_id": "book_pippi",
+    "page_count": 27,
+    "sample_source": "user supplied digital PDF/EPUB, not camera photos",
+    "file_sequence_complete": true,
+    "printed_sequence_status": "not fully reviewed; no missing-page claim",
+    "flag_counts": {}
+  }
+]

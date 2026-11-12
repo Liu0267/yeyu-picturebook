@@ -1,0 +1,16 @@
+[
+  {
+    "case": "provided_key",
+    "status": 200,
+    "request_id": "5600d08405815c3c88aa5784b0bc78f2",
+    "error_code": null,
+    "contains_model_catalog": true
+  },
+  {
+    "case": "deliberately_invalid_control",
+    "status": 401,
+    "request_id": "d7abe9f5834c3a32fc378e495940eda9",
+    "error_code": "",
+    "contains_model_catalog": false
+  }
+]

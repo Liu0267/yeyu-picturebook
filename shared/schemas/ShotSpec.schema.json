@@ -1,0 +1,153 @@
+{
+  "$defs": {
+    "Region": {
+      "additionalProperties": false,
+      "properties": {
+        "x1": {
+          "default": 0,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "X1",
+          "type": "number"
+        },
+        "y1": {
+          "default": 0,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Y1",
+          "type": "number"
+        },
+        "x2": {
+          "default": 1,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "X2",
+          "type": "number"
+        },
+        "y2": {
+          "default": 1,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Y2",
+          "type": "number"
+        }
+      },
+      "title": "Region",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "shot_id": {
+      "title": "Shot Id",
+      "type": "string"
+    },
+    "book_id": {
+      "title": "Book Id",
+      "type": "string"
+    },
+    "manifest_revision": {
+      "minimum": 1,
+      "title": "Manifest Revision",
+      "type": "integer"
+    },
+    "page_id": {
+      "title": "Page Id",
+      "type": "string"
+    },
+    "page_revision": {
+      "minimum": 1,
+      "title": "Page Revision",
+      "type": "integer"
+    },
+    "fact_ids": {
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1,
+      "title": "Fact Ids",
+      "type": "array"
+    },
+    "entity_ids": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Entity Ids",
+      "type": "array"
+    },
+    "reference_asset_id": {
+      "title": "Reference Asset Id",
+      "type": "string"
+    },
+    "end_keyframe_asset_id": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "End Keyframe Asset Id"
+    },
+    "reference_region": {
+      "$ref": "#/$defs/Region"
+    },
+    "narration": {
+      "title": "Narration",
+      "type": "string"
+    },
+    "creative_additions": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Creative Additions",
+      "type": "array"
+    },
+    "prompt_version": {
+      "default": "source-bound-v1",
+      "title": "Prompt Version",
+      "type": "string"
+    },
+    "prompt": {
+      "title": "Prompt",
+      "type": "string"
+    },
+    "negative_prompt": {
+      "title": "Negative Prompt",
+      "type": "string"
+    },
+    "target_duration_ms": {
+      "maximum": 20000,
+      "minimum": 1000,
+      "title": "Target Duration Ms",
+      "type": "integer"
+    },
+    "status": {
+      "default": "needs_review",
+      "enum": [
+        "needs_review",
+        "approved"
+      ],
+      "title": "Status",
+      "type": "string"
+    }
+  },
+  "required": [
+    "shot_id",
+    "book_id",
+    "manifest_revision",
+    "page_id",
+    "page_revision",
+    "fact_ids",
+    "reference_asset_id",
+    "reference_region",
+    "narration",
+    "prompt",
+    "negative_prompt",
+    "target_duration_ms"
+  ],
+  "title": "ShotSpec",
+  "type": "object"
+}

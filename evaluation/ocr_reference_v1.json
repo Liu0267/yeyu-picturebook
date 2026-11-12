@@ -1,0 +1,148 @@
+{
+  "dataset_version": "1.0",
+  "frozen_before_row_filter_experiment": true,
+  "scope": "8 selected excerpts, 2 per book; includes OCR and embedded text separately",
+  "samples": [
+    {
+      "sample_id": "emil_005_excerpt",
+      "book_id": "book_emil",
+      "page_id": "book_emil_p005",
+      "source_sha256": "8df05b1d120eb3b87eadbb29361633bdea387f8d58e41fdc1d21d87703f42490",
+      "line_ids": [
+        "book_emil_p005_l003",
+        "book_emil_p005_l004",
+        "book_emil_p005_l005"
+      ],
+      "reference_text": "小朋友们，请仔细听，我要给你们讲一个小男孩的故事。事情发生在很久以前，但是现在仍然流传在瑞典斯莫兰省美丽的山谷——伦纳贝里教区，那里是男孩的家乡。",
+      "recognized_text": "小朋友们，请仔细听，我要给你们讲一个小男孩的故事。\n事情发生在很久以前，但是现在仍然流传在瑞典斯莫兰省美\n丽的山谷——伦纳贝里教区，那里是男孩的家乡。",
+      "method": "apple_vision_3",
+      "reference_reviewed_by": "assistant_actual_source_image_transcription",
+      "independent_human_review": false
+    },
+    {
+      "sample_id": "emil_008_excerpt",
+      "book_id": "book_emil",
+      "page_id": "book_emil_p008",
+      "source_sha256": "8a1aa1069a8d9d80c6cbf59000cf59591959998371a76b9f94978506ef626113",
+      "line_ids": [
+        "book_emil_p008_l001",
+        "book_emil_p008_l002",
+        "book_emil_p008_l003",
+        "book_emil_p008_l004",
+        "book_emil_p008_l005"
+      ],
+      "reference_text": "小朋友们，请仔细听，我要给你们讲的是，在美丽的五月，我们的埃米尔在一天里做了什么事情。他把自己的小妹妹升到自家庄园的旗杆顶上，然后平静地看着她悬在半空。哎呀，哎呀，他真够淘气的。但是伊达很得意，因为没有其他人在这么高的地方悠来悠去过。",
+      "recognized_text": "小朋友们，请仔细听，我要给你们讲的是，在美丽\n的五月，我们的埃米尔在一天里做了什么事情。他把自\n己的小妹妹升到自家庄园旗杆顶上，然后平静地看着\n她悬在半空。哎呀，哎呀，他真够淘气的。但是伊达很\n得意，因为没有其他人在这么高地方悠来悠去过。",
+      "method": "apple_vision_3",
+      "reference_reviewed_by": "assistant_actual_source_image_transcription",
+      "independent_human_review": false
+    },
+    {
+      "sample_id": "pippi_005_excerpt",
+      "book_id": "book_pippi",
+      "page_id": "book_pippi_p005",
+      "source_sha256": "db3286dc68c24665ae9780c7955e3ad1fcb241aa125b6139095b9128b3d010fd",
+      "line_ids": [
+        "book_pippi_p005_l001",
+        "book_pippi_p005_l002"
+      ],
+      "reference_text": "这是杜米和阿妮卡。他们是两个既可爱又听话的孩子。此刻他们正在自己家的院子里打槌球，玩儿得相当快乐。",
+      "recognized_text": "这是杜米和阿妮卡。他们是两个既可爱又听话的孩子。此刻他\n们正在自己家的院子里打槌球，玩儿得相当快乐。",
+      "method": "apple_vision_3",
+      "reference_reviewed_by": "assistant_actual_source_image_transcription",
+      "independent_human_review": false
+    },
+    {
+      "sample_id": "pippi_006_excerpt",
+      "book_id": "book_pippi",
+      "page_id": "book_pippi_p006",
+      "source_sha256": "1eca730d4bf3433d1ec37e3b41a945f6701281311e3c2743d4a46937d29b0036",
+      "line_ids": [
+        "book_pippi_p006_l001",
+        "book_pippi_p006_l002",
+        "book_pippi_p006_l003",
+        "book_pippi_p006_l004"
+      ],
+      "reference_text": "不过在一个美丽的日子，当杜米和阿妮卡从围栏朝维拉·维洛古拉看时，他们看到了一幅奇特的景象——一位很小很小的姑娘举着一匹大马走了过来，那马是活的。杜米和阿妮卡真不敢相信这是真的，因为一个小姑娘怎么可能把一匹大活马举起来呢。告诉你吧，",
+      "recognized_text": "不过在一个美丽的日子，当杜米和阿妮卡从围栏朝维拉•维洛\n古拉看时，他们看到了一幅奇特的景象——一位很小很小姑娘举\n着一匹大马走了过来，那马是活的。杜米和阿妮卡真不敢相信这是\n真的，因为一个小姑娘怎么可能把一匹大活马举起来呢。告诉你吧，",
+      "method": "apple_vision_3",
+      "reference_reviewed_by": "assistant_actual_source_image_transcription",
+      "independent_human_review": false
+    },
+    {
+      "sample_id": "cat_006_excerpt",
+      "book_id": "book_cat",
+      "page_id": "book_cat_p006",
+      "source_sha256": "897a35a1e030befc75ef4e779fa183e7dbb535bfd405b96aeadc8044bf7dee4b",
+      "line_ids": [
+        "book_cat_p006_l001",
+        "book_cat_p006_l002",
+        "book_cat_p006_l003",
+        "book_cat_p006_l004",
+        "book_cat_p006_l005"
+      ],
+      "reference_text": "很久很久以前，有一个老磨坊主，他有三个儿子。有一天，老磨坊主快死了，他把风车磨坊留给了大儿子，驴子留给了二儿子，而小儿子只得到了一只猫。",
+      "recognized_text": "很买狼昊以箭，峟二米老蘑镑望，他\nmo fang zhu\n宥望不先子。宥二笑，老蘑舅望快死号，\n他筢岚军蘑努留给予哭兄子，驴子留给了\n兰兑享，希尔先子英得蜀学二英猫。",
+      "method": "apple_vision_3",
+      "reference_reviewed_by": "assistant_actual_source_image_transcription",
+      "independent_human_review": false
+    },
+    {
+      "sample_id": "cat_008_excerpt",
+      "book_id": "book_cat",
+      "page_id": "book_cat_p008",
+      "source_sha256": "ebf9e7dcce70f4f2a326ac8c50f5927a2dfc69e1ccb04668537fbf40a5ad1079",
+      "line_ids": [
+        "book_cat_p008_l001",
+        "book_cat_p008_l002",
+        "book_cat_p008_l003",
+        "book_cat_p008_l004",
+        "book_cat_p008_l005",
+        "book_cat_p008_l006",
+        "book_cat_p008_l007",
+        "book_cat_p008_l008",
+        "book_cat_p008_l009",
+        "book_cat_p008_l010",
+        "book_cat_p008_l011",
+        "book_cat_p008_l012",
+        "book_cat_p008_l013",
+        "book_cat_p008_l014",
+        "book_cat_p008_l015"
+      ],
+      "reference_text": "穿靴子的猫穿上了靴子，肩膀上背上了大口袋，神气地走进了森林。他敞开大口袋，然后趴在地上等着。不一会儿，就有一只好奇的兔子跑过来，落入了陷阱。",
+      "recognized_text": "chuan xue\n芽靴子猫穿上了靴子，肩膀上背上了\nZi\nde\nnao Chuan Shang le\nxue\nZi\nJian bang shang bei shang le\n买台餐，禪气地美进了森林。他敞开买口餐，\naa kou dai\n然启或程地宝掌著。呆二荟儿，就着二黄好\ndi shang deng zhe\nvi zhi hdo\n哥韵冕子跑選菜，落兴了陷阱。\nru le xian jing",
+      "method": "apple_vision_3",
+      "reference_reviewed_by": "assistant_actual_source_image_transcription",
+      "independent_human_review": false
+    },
+    {
+      "sample_id": "ocean_005_excerpt",
+      "book_id": "book_ocean",
+      "page_id": "book_ocean_p005",
+      "source_sha256": "eb20550171caf7aa48ab1495a064f9fd5becef0a7156d85c437cc8c199bb514d",
+      "line_ids": [
+        "book_ocean_p005_l001"
+      ],
+      "reference_text": "在离陆地很远很远的地方，有一座海岛。岛上的居民都以打渔为生，他们住的房子都有蓝色的屋顶。这座小岛就在海浪和波涛的臂弯中静静地沉睡着。",
+      "recognized_text": "在离陆地很远很远的地方，有一座海岛。岛上的居民都以打渔为生，他们住的房子都有蓝色的屋顶。这座小岛就在海浪和波涛的臂弯中静静地沉睡着。",
+      "method": "embedded_text_unaligned",
+      "reference_reviewed_by": "assistant_actual_source_image_transcription",
+      "independent_human_review": false
+    },
+    {
+      "sample_id": "ocean_006_excerpt",
+      "book_id": "book_ocean",
+      "page_id": "book_ocean_p006",
+      "source_sha256": "95d19c141043ef67c8944c2bc709de44b94d35f8e5254866a229d9784f8d9df2",
+      "line_ids": [
+        "book_ocean_p006_l001",
+        "book_ocean_p006_l002"
+      ],
+      "reference_text": "巴斯蒂安的家中祖祖辈辈都以打渔为生。他每天都会和兄弟们驾船出海，去寻找村民们需要的鱼类。",
+      "recognized_text": "巴斯蒂安的家中祖祖辈辈都以打渔为生。\n他每天都会和兄弟们驾船出海，去寻找村民们需要的鱼类。",
+      "method": "embedded_text_unaligned",
+      "reference_reviewed_by": "assistant_actual_source_image_transcription",
+      "independent_human_review": false
+    }
+  ]
+}

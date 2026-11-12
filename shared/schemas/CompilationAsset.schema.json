@@ -1,0 +1,83 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "compilation_id": {
+      "title": "Compilation Id",
+      "type": "string"
+    },
+    "book_id": {
+      "title": "Book Id",
+      "type": "string"
+    },
+    "asset_version": {
+      "minimum": 1,
+      "title": "Asset Version",
+      "type": "integer"
+    },
+    "asset_id": {
+      "title": "Asset Id",
+      "type": "string"
+    },
+    "subtitle_asset_id": {
+      "title": "Subtitle Asset Id",
+      "type": "string"
+    },
+    "duration_ms": {
+      "exclusiveMinimum": 0,
+      "title": "Duration Ms",
+      "type": "integer"
+    },
+    "chapters": {
+      "items": {
+        "additionalProperties": true,
+        "type": "object"
+      },
+      "title": "Chapters",
+      "type": "array"
+    },
+    "status": {
+      "enum": [
+        "needs_review",
+        "approved",
+        "expired",
+        "failed"
+      ],
+      "title": "Status",
+      "type": "string"
+    },
+    "run_id": {
+      "title": "Run Id",
+      "type": "string"
+    },
+    "is_mock": {
+      "title": "Is Mock",
+      "type": "boolean"
+    },
+    "reviewed_by": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Reviewed By"
+    }
+  },
+  "required": [
+    "compilation_id",
+    "book_id",
+    "asset_version",
+    "asset_id",
+    "subtitle_asset_id",
+    "duration_ms",
+    "chapters",
+    "status",
+    "run_id",
+    "is_mock"
+  ],
+  "title": "CompilationAsset",
+  "type": "object"
+}

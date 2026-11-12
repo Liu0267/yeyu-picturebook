@@ -1,0 +1,44 @@
+{
+  "page_id": "book_cat_p008",
+  "rows": [
+    {
+      "image": "outputs/页语_A方原型/evaluation/row_filter/book_cat_p008/row_01.png",
+      "source_region": [
+        0.15006915629322268,
+        0.14322916666666666,
+        0.7897648686030428,
+        0.16614583333333333
+      ]
+    },
+    {
+      "image": "outputs/页语_A方原型/evaluation/row_filter/book_cat_p008/row_02.png",
+      "source_region": [
+        0.15006915629322268,
+        0.18385416666666668,
+        0.7897648686030428,
+        0.20625
+      ]
+    },
+    {
+      "image": "outputs/页语_A方原型/evaluation/row_filter/book_cat_p008/row_03.png",
+      "source_region": [
+        0.15006915629322268,
+        0.22291666666666668,
+        0.7897648686030428,
+        0.24635416666666668
+      ]
+    },
+    {
+      "image": "outputs/页语_A方原型/evaluation/row_filter/book_cat_p008/row_04.png",
+      "source_region": [
+        0.15006915629322268,
+        0.2635416666666667,
+        0.7897648686030428,
+        0.2859375
+      ]
+    }
+  ],
+  "elapsed_s": 1.641,
+  "source_unchanged": true,
+  "coordinate_space": "source page normalized"
+}

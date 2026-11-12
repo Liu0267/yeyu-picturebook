@@ -1,0 +1,11 @@
+{
+  "service_version": "0.3.0",
+  "method": "in_process_TestClient",
+  "external_calls": 0,
+  "real_published_clips": 1,
+  "actual_reviewed_frames": 3,
+  "range_read": "206,32bytes",
+  "clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+  "reviewer": "assistant_actual_frame_review_2026-11-10",
+  "human_audiovisual_acceptance": "pending"
+}

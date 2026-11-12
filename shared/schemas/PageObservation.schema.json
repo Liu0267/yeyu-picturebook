@@ -1,0 +1,85 @@
+{
+  "$defs": {
+    "VisibleObject": {
+      "additionalProperties": false,
+      "properties": {
+        "name": {
+          "title": "Name",
+          "type": "string"
+        },
+        "description": {
+          "title": "Description",
+          "type": "string"
+        },
+        "bbox": {
+          "maxItems": 4,
+          "minItems": 4,
+          "prefixItems": [
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "maximum": 1,
+              "minimum": 0,
+              "type": "number"
+            }
+          ],
+          "title": "Bbox",
+          "type": "array"
+        }
+      },
+      "required": [
+        "name",
+        "description",
+        "bbox"
+      ],
+      "title": "VisibleObject",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "visible_objects": {
+      "items": {
+        "$ref": "#/$defs/VisibleObject"
+      },
+      "title": "Visible Objects",
+      "type": "array"
+    },
+    "explicit_text": {
+      "title": "Explicit Text",
+      "type": "string"
+    },
+    "visual_summary": {
+      "title": "Visual Summary",
+      "type": "string"
+    },
+    "uncertainties": {
+      "items": {
+        "type": "string"
+      },
+      "title": "Uncertainties",
+      "type": "array"
+    }
+  },
+  "required": [
+    "visible_objects",
+    "explicit_text",
+    "visual_summary",
+    "uncertainties"
+  ],
+  "title": "PageObservation",
+  "type": "object"
+}

@@ -1,0 +1,4 @@
+# Separate Apple Silicon environment; do not install into the small API environment.
+mlx-vlm==0.7.12
+mlx-audio==0.6.4
+soundfile==0.14.0

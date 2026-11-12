@@ -1,0 +1,55 @@
+# ===== 隐私与版权红线（绝不可提交） =====
+# 样书数据（受版权保护）与其所有衍生产物
+data/books/
+data/runs/
+data/frames/
+data/keyframes/
+data/catalog_raw.json
+data/seed_state.json
+data/editorial_annotations.json
+data/inbox/
+data/state.sqlite
+interaction/state/
+# 内部调试记录（含个人路径）
+docs/local_video_diagnostics/
+docs/test_run.txt
+
+# ===== 密钥与本地配置 =====
+.local/
+.secrets/
+*.key
+.env
+runtime.env
+*.sqlite
+*.sqlite-journal
+
+# ===== 模型权重（用 scripts/download_all_models.py 获取） =====
+*.gguf
+*.safetensors
+*.npz
+*.bin
+models/
+work/
+
+# ===== 构建产物与缓存 =====
+__pycache__/
+*.pyc
+.pytest_cache/
+node_modules/
+web/dist/
+.vite/
+*.egg-info/
+.venv/
+venv/
+
+# ===== 系统与临时文件 =====
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+playwright-report/
+test-results/
+worker.lock
+docs/junit.xml
+docs/test_results.xml
+docs/agnes_*.json

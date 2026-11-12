@@ -1,0 +1,21 @@
+[
+  {
+    "clip_id": "clip_576e5e1e055e46f8af60cf5064157339",
+    "book_id": "book_mock",
+    "page_id": "book_mock_p001",
+    "shot_id": "book_mock_p001_r1_shot1",
+    "manifest_revision": 1,
+    "page_revision": 1,
+    "asset_version": 1,
+    "duration_ms": 3000,
+    "status": "approved",
+    "asset_id": "asset_74c90c6e8941d27790971f47",
+    "is_mock": true,
+    "provenance": "synthetic_mock",
+    "run_id": "run_2913051a05fb45bebe458d646f7ddc52",
+    "model_call_id": null,
+    "reviewed_by": "assistant_actual_mock_frame_review",
+    "audio_asset_id": null,
+    "subtitle_asset_id": null
+  }
+]

@@ -1,0 +1,263 @@
+{
+  "dataset_sha256": "69d312352d4caed97d9a5e0be9f02156f382d57c2ea37e948fbad96921384544",
+  "all_excerpts": {
+    "sample_count": 8,
+    "reference_characters": 544,
+    "edit_errors": 70,
+    "micro_cer": 0.12867647058823528,
+    "normalization": "NFKC; retain CJK unified ideographs only; exclude punctuation, digits and pinyin",
+    "reference_source": "assistant source-image transcription, no independent human double review",
+    "scope": "selected excerpts; not whole-book accuracy, not random sample, no confidence interval",
+    "samples": [
+      {
+        "sample_id": "emil_005_excerpt",
+        "page_id": "book_emil_p005",
+        "method": "apple_vision_3",
+        "reference_chars": 65,
+        "edit_errors": 0,
+        "cer": 0.0,
+        "reference_text": "小朋友们，请仔细听，我要给你们讲一个小男孩的故事。事情发生在很久以前，但是现在仍然流传在瑞典斯莫兰省美丽的山谷——伦纳贝里教区，那里是男孩的家乡。",
+        "recognized_text": "小朋友们，请仔细听，我要给你们讲一个小男孩的故事。\n事情发生在很久以前，但是现在仍然流传在瑞典斯莫兰省美\n丽的山谷——伦纳贝里教区，那里是男孩的家乡。"
+      },
+      {
+        "sample_id": "emil_008_excerpt",
+        "page_id": "book_emil_p008",
+        "method": "apple_vision_3",
+        "reference_chars": 105,
+        "edit_errors": 2,
+        "cer": 0.01904761904761905,
+        "reference_text": "小朋友们，请仔细听，我要给你们讲的是，在美丽的五月，我们的埃米尔在一天里做了什么事情。他把自己的小妹妹升到自家庄园的旗杆顶上，然后平静地看着她悬在半空。哎呀，哎呀，他真够淘气的。但是伊达很得意，因为没有其他人在这么高的地方悠来悠去过。",
+        "recognized_text": "小朋友们，请仔细听，我要给你们讲的是，在美丽\n的五月，我们的埃米尔在一天里做了什么事情。他把自\n己的小妹妹升到自家庄园旗杆顶上，然后平静地看着\n她悬在半空。哎呀，哎呀，他真够淘气的。但是伊达很\n得意，因为没有其他人在这么高地方悠来悠去过。"
+      },
+      {
+        "sample_id": "pippi_005_excerpt",
+        "page_id": "book_pippi_p005",
+        "method": "apple_vision_3",
+        "reference_chars": 45,
+        "edit_errors": 0,
+        "cer": 0.0,
+        "reference_text": "这是杜米和阿妮卡。他们是两个既可爱又听话的孩子。此刻他们正在自己家的院子里打槌球，玩儿得相当快乐。",
+        "recognized_text": "这是杜米和阿妮卡。他们是两个既可爱又听话的孩子。此刻他\n们正在自己家的院子里打槌球，玩儿得相当快乐。"
+      },
+      {
+        "sample_id": "pippi_006_excerpt",
+        "page_id": "book_pippi_p006",
+        "method": "apple_vision_3",
+        "reference_chars": 105,
+        "edit_errors": 1,
+        "cer": 0.009523809523809525,
+        "reference_text": "不过在一个美丽的日子，当杜米和阿妮卡从围栏朝维拉·维洛古拉看时，他们看到了一幅奇特的景象——一位很小很小的姑娘举着一匹大马走了过来，那马是活的。杜米和阿妮卡真不敢相信这是真的，因为一个小姑娘怎么可能把一匹大活马举起来呢。告诉你吧，",
+        "recognized_text": "不过在一个美丽的日子，当杜米和阿妮卡从围栏朝维拉•维洛\n古拉看时，他们看到了一幅奇特的景象——一位很小很小姑娘举\n着一匹大马走了过来，那马是活的。杜米和阿妮卡真不敢相信这是\n真的，因为一个小姑娘怎么可能把一匹大活马举起来呢。告诉你吧，"
+      },
+      {
+        "sample_id": "cat_006_excerpt",
+        "page_id": "book_cat_p006",
+        "method": "apple_vision_3",
+        "reference_chars": 60,
+        "edit_errors": 40,
+        "cer": 0.6666666666666666,
+        "reference_text": "很久很久以前，有一个老磨坊主，他有三个儿子。有一天，老磨坊主快死了，他把风车磨坊留给了大儿子，驴子留给了二儿子，而小儿子只得到了一只猫。",
+        "recognized_text": "很买狼昊以箭，峟二米老蘑镑望，他\nmo fang zhu\n宥望不先子。宥二笑，老蘑舅望快死号，\n他筢岚军蘑努留给予哭兄子，驴子留给了\n兰兑享，希尔先子英得蜀学二英猫。"
+      },
+      {
+        "sample_id": "cat_008_excerpt",
+        "page_id": "book_cat_p008",
+        "method": "apple_vision_3",
+        "reference_chars": 62,
+        "edit_errors": 27,
+        "cer": 0.43548387096774194,
+        "reference_text": "穿靴子的猫穿上了靴子，肩膀上背上了大口袋，神气地走进了森林。他敞开大口袋，然后趴在地上等着。不一会儿，就有一只好奇的兔子跑过来，落入了陷阱。",
+        "recognized_text": "chuan xue\n芽靴子猫穿上了靴子，肩膀上背上了\nZi\nde\nnao Chuan Shang le\nxue\nZi\nJian bang shang bei shang le\n买台餐，禪气地美进了森林。他敞开买口餐，\naa kou dai\n然启或程地宝掌著。呆二荟儿，就着二黄好\ndi shang deng zhe\nvi zhi hdo\n哥韵冕子跑選菜，落兴了陷阱。\nru le xian jing"
+      },
+      {
+        "sample_id": "ocean_005_excerpt",
+        "page_id": "book_ocean_p005",
+        "method": "embedded_text_unaligned",
+        "reference_chars": 61,
+        "edit_errors": 0,
+        "cer": 0.0,
+        "reference_text": "在离陆地很远很远的地方，有一座海岛。岛上的居民都以打渔为生，他们住的房子都有蓝色的屋顶。这座小岛就在海浪和波涛的臂弯中静静地沉睡着。",
+        "recognized_text": "在离陆地很远很远的地方，有一座海岛。岛上的居民都以打渔为生，他们住的房子都有蓝色的屋顶。这座小岛就在海浪和波涛的臂弯中静静地沉睡着。"
+      },
+      {
+        "sample_id": "ocean_006_excerpt",
+        "page_id": "book_ocean_p006",
+        "method": "embedded_text_unaligned",
+        "reference_chars": 41,
+        "edit_errors": 0,
+        "cer": 0.0,
+        "reference_text": "巴斯蒂安的家中祖祖辈辈都以打渔为生。他每天都会和兄弟们驾船出海，去寻找村民们需要的鱼类。",
+        "recognized_text": "巴斯蒂安的家中祖祖辈辈都以打渔为生。\n他每天都会和兄弟们驾船出海，去寻找村民们需要的鱼类。"
+      }
+    ]
+  },
+  "by_method": {
+    "apple_vision_3": {
+      "sample_count": 6,
+      "reference_characters": 442,
+      "edit_errors": 70,
+      "micro_cer": 0.1583710407239819,
+      "normalization": "NFKC; retain CJK unified ideographs only; exclude punctuation, digits and pinyin",
+      "reference_source": "assistant source-image transcription, no independent human double review",
+      "scope": "selected excerpts; not whole-book accuracy, not random sample, no confidence interval",
+      "samples": [
+        {
+          "sample_id": "emil_005_excerpt",
+          "page_id": "book_emil_p005",
+          "method": "apple_vision_3",
+          "reference_chars": 65,
+          "edit_errors": 0,
+          "cer": 0.0,
+          "reference_text": "小朋友们，请仔细听，我要给你们讲一个小男孩的故事。事情发生在很久以前，但是现在仍然流传在瑞典斯莫兰省美丽的山谷——伦纳贝里教区，那里是男孩的家乡。",
+          "recognized_text": "小朋友们，请仔细听，我要给你们讲一个小男孩的故事。\n事情发生在很久以前，但是现在仍然流传在瑞典斯莫兰省美\n丽的山谷——伦纳贝里教区，那里是男孩的家乡。"
+        },
+        {
+          "sample_id": "emil_008_excerpt",
+          "page_id": "book_emil_p008",
+          "method": "apple_vision_3",
+          "reference_chars": 105,
+          "edit_errors": 2,
+          "cer": 0.01904761904761905,
+          "reference_text": "小朋友们，请仔细听，我要给你们讲的是，在美丽的五月，我们的埃米尔在一天里做了什么事情。他把自己的小妹妹升到自家庄园的旗杆顶上，然后平静地看着她悬在半空。哎呀，哎呀，他真够淘气的。但是伊达很得意，因为没有其他人在这么高的地方悠来悠去过。",
+          "recognized_text": "小朋友们，请仔细听，我要给你们讲的是，在美丽\n的五月，我们的埃米尔在一天里做了什么事情。他把自\n己的小妹妹升到自家庄园旗杆顶上，然后平静地看着\n她悬在半空。哎呀，哎呀，他真够淘气的。但是伊达很\n得意，因为没有其他人在这么高地方悠来悠去过。"
+        },
+        {
+          "sample_id": "pippi_005_excerpt",
+          "page_id": "book_pippi_p005",
+          "method": "apple_vision_3",
+          "reference_chars": 45,
+          "edit_errors": 0,
+          "cer": 0.0,
+          "reference_text": "这是杜米和阿妮卡。他们是两个既可爱又听话的孩子。此刻他们正在自己家的院子里打槌球，玩儿得相当快乐。",
+          "recognized_text": "这是杜米和阿妮卡。他们是两个既可爱又听话的孩子。此刻他\n们正在自己家的院子里打槌球，玩儿得相当快乐。"
+        },
+        {
+          "sample_id": "pippi_006_excerpt",
+          "page_id": "book_pippi_p006",
+          "method": "apple_vision_3",
+          "reference_chars": 105,
+          "edit_errors": 1,
+          "cer": 0.009523809523809525,
+          "reference_text": "不过在一个美丽的日子，当杜米和阿妮卡从围栏朝维拉·维洛古拉看时，他们看到了一幅奇特的景象——一位很小很小的姑娘举着一匹大马走了过来，那马是活的。杜米和阿妮卡真不敢相信这是真的，因为一个小姑娘怎么可能把一匹大活马举起来呢。告诉你吧，",
+          "recognized_text": "不过在一个美丽的日子，当杜米和阿妮卡从围栏朝维拉•维洛\n古拉看时，他们看到了一幅奇特的景象——一位很小很小姑娘举\n着一匹大马走了过来，那马是活的。杜米和阿妮卡真不敢相信这是\n真的，因为一个小姑娘怎么可能把一匹大活马举起来呢。告诉你吧，"
+        },
+        {
+          "sample_id": "cat_006_excerpt",
+          "page_id": "book_cat_p006",
+          "method": "apple_vision_3",
+          "reference_chars": 60,
+          "edit_errors": 40,
+          "cer": 0.6666666666666666,
+          "reference_text": "很久很久以前，有一个老磨坊主，他有三个儿子。有一天，老磨坊主快死了，他把风车磨坊留给了大儿子，驴子留给了二儿子，而小儿子只得到了一只猫。",
+          "recognized_text": "很买狼昊以箭，峟二米老蘑镑望，他\nmo fang zhu\n宥望不先子。宥二笑，老蘑舅望快死号，\n他筢岚军蘑努留给予哭兄子，驴子留给了\n兰兑享，希尔先子英得蜀学二英猫。"
+        },
+        {
+          "sample_id": "cat_008_excerpt",
+          "page_id": "book_cat_p008",
+          "method": "apple_vision_3",
+          "reference_chars": 62,
+          "edit_errors": 27,
+          "cer": 0.43548387096774194,
+          "reference_text": "穿靴子的猫穿上了靴子，肩膀上背上了大口袋，神气地走进了森林。他敞开大口袋，然后趴在地上等着。不一会儿，就有一只好奇的兔子跑过来，落入了陷阱。",
+          "recognized_text": "chuan xue\n芽靴子猫穿上了靴子，肩膀上背上了\nZi\nde\nnao Chuan Shang le\nxue\nZi\nJian bang shang bei shang le\n买台餐，禪气地美进了森林。他敞开买口餐，\naa kou dai\n然启或程地宝掌著。呆二荟儿，就着二黄好\ndi shang deng zhe\nvi zhi hdo\n哥韵冕子跑選菜，落兴了陷阱。\nru le xian jing"
+        }
+      ]
+    },
+    "embedded_text_unaligned": {
+      "sample_count": 2,
+      "reference_characters": 102,
+      "edit_errors": 0,
+      "micro_cer": 0.0,
+      "normalization": "NFKC; retain CJK unified ideographs only; exclude punctuation, digits and pinyin",
+      "reference_source": "assistant source-image transcription, no independent human double review",
+      "scope": "selected excerpts; not whole-book accuracy, not random sample, no confidence interval",
+      "samples": [
+        {
+          "sample_id": "ocean_005_excerpt",
+          "page_id": "book_ocean_p005",
+          "method": "embedded_text_unaligned",
+          "reference_chars": 61,
+          "edit_errors": 0,
+          "cer": 0.0,
+          "reference_text": "在离陆地很远很远的地方，有一座海岛。岛上的居民都以打渔为生，他们住的房子都有蓝色的屋顶。这座小岛就在海浪和波涛的臂弯中静静地沉睡着。",
+          "recognized_text": "在离陆地很远很远的地方，有一座海岛。岛上的居民都以打渔为生，他们住的房子都有蓝色的屋顶。这座小岛就在海浪和波涛的臂弯中静静地沉睡着。"
+        },
+        {
+          "sample_id": "ocean_006_excerpt",
+          "page_id": "book_ocean_p006",
+          "method": "embedded_text_unaligned",
+          "reference_chars": 41,
+          "edit_errors": 0,
+          "cer": 0.0,
+          "reference_text": "巴斯蒂安的家中祖祖辈辈都以打渔为生。他每天都会和兄弟们驾船出海，去寻找村民们需要的鱼类。",
+          "recognized_text": "巴斯蒂安的家中祖祖辈辈都以打渔为生。\n他每天都会和兄弟们驾船出海，去寻找村民们需要的鱼类。"
+        }
+      ]
+    }
+  },
+  "paired_row_filter_experiment": {
+    "baseline": {
+      "sample_count": 2,
+      "reference_characters": 122,
+      "edit_errors": 67,
+      "micro_cer": 0.5491803278688525,
+      "normalization": "NFKC; retain CJK unified ideographs only; exclude punctuation, digits and pinyin",
+      "reference_source": "assistant source-image transcription, no independent human double review",
+      "scope": "selected excerpts; not whole-book accuracy, not random sample, no confidence interval",
+      "samples": [
+        {
+          "sample_id": "cat_006_excerpt",
+          "page_id": "book_cat_p006",
+          "method": "apple_vision_3",
+          "reference_chars": 60,
+          "edit_errors": 40,
+          "cer": 0.6666666666666666,
+          "reference_text": "很久很久以前，有一个老磨坊主，他有三个儿子。有一天，老磨坊主快死了，他把风车磨坊留给了大儿子，驴子留给了二儿子，而小儿子只得到了一只猫。",
+          "recognized_text": "很买狼昊以箭，峟二米老蘑镑望，他\nmo fang zhu\n宥望不先子。宥二笑，老蘑舅望快死号，\n他筢岚军蘑努留给予哭兄子，驴子留给了\n兰兑享，希尔先子英得蜀学二英猫。"
+        },
+        {
+          "sample_id": "cat_008_excerpt",
+          "page_id": "book_cat_p008",
+          "method": "apple_vision_3",
+          "reference_chars": 62,
+          "edit_errors": 27,
+          "cer": 0.43548387096774194,
+          "reference_text": "穿靴子的猫穿上了靴子，肩膀上背上了大口袋，神气地走进了森林。他敞开大口袋，然后趴在地上等着。不一会儿，就有一只好奇的兔子跑过来，落入了陷阱。",
+          "recognized_text": "chuan xue\n芽靴子猫穿上了靴子，肩膀上背上了\nZi\nde\nnao Chuan Shang le\nxue\nZi\nJian bang shang bei shang le\n买台餐，禪气地美进了森林。他敞开买口餐，\naa kou dai\n然启或程地宝掌著。呆二荟儿，就着二黄好\ndi shang deng zhe\nvi zhi hdo\n哥韵冕子跑選菜，落兴了陷阱。\nru le xian jing"
+        }
+      ]
+    },
+    "row_filtered": {
+      "sample_count": 2,
+      "reference_characters": 122,
+      "edit_errors": 2,
+      "micro_cer": 0.01639344262295082,
+      "normalization": "NFKC; retain CJK unified ideographs only; exclude punctuation, digits and pinyin",
+      "reference_source": "assistant source-image transcription, no independent human double review",
+      "scope": "selected excerpts; not whole-book accuracy, not random sample, no confidence interval",
+      "samples": [
+        {
+          "sample_id": "cat_006_excerpt",
+          "page_id": "book_cat_p006",
+          "method": "apple_vision_3_chinese_row_filter",
+          "reference_chars": 60,
+          "edit_errors": 0,
+          "cer": 0.0,
+          "reference_text": "很久很久以前，有一个老磨坊主，他有三个儿子。有一天，老磨坊主快死了，他把风车磨坊留给了大儿子，驴子留给了二儿子，而小儿子只得到了一只猫。",
+          "recognized_text": "很久很久以前，有一个老磨坊主，他\n有三个儿子。有一天，老磨坊主快死了，\n他把风车磨坊留给了大儿子，驴子留给了\n二儿子，而小儿子只得到了一只猫。"
+        },
+        {
+          "sample_id": "cat_008_excerpt",
+          "page_id": "book_cat_p008",
+          "method": "apple_vision_3_chinese_row_filter",
+          "reference_chars": 62,
+          "edit_errors": 2,
+          "cer": 0.03225806451612903,
+          "reference_text": "穿靴子的猫穿上了靴子，肩膀上背上了大口袋，神气地走进了森林。他敞开大口袋，然后趴在地上等着。不一会儿，就有一只好奇的兔子跑过来，落入了陷阱。",
+          "recognized_text": "穿靴子猫穿上了靴子，肩膀上背上了\n大口袋，神气地走进了森林。他敞开大口袋，\n然后趴在地上等着。不一会儿，就有一只好\n奇兔子跑过来，落入了陷阱。"
+        }
+      ]
+    },
+    "scope": "two selected pinyin pages; development experiment, no independent holdout; not a whole-book improvement claim"
+  }
+}

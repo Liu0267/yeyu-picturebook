@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "counts": {
+    "book": 5,
+    "clip": 3,
+    "frame": 9,
+    "run": 11,
+    "shot": 13,
+    "narration": 1,
+    "understanding": 2
+  },
+  "asset_count": 134,
+  "checks": [
+    "schema",
+    "source and entity references",
+    "asset SHA256",
+    "video duration",
+    "frame timestamp and video hash"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "is_presentation_derivative": true,
+  "source_clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+  "source_sha256": "a1a9f89de9848b20929ee08b0ae2949617566f0a8c1367c8e031ca0245e8bc3b",
+  "output_sha256": "5de04e2f9c235057a69e761f086c50fd46adb97e082f2bc8bcbd4f6e557ca94e",
+  "overlay": "AI interpretation label, source page location, timed burned Chinese caption",
+  "frame_count": 50,
+  "source_picture_dimensions": [
+    512,
+    384
+  ],
+  "presentation_dimensions": [
+    512,
+    480
+  ],
+  "fps": 8.0,
+  "note": "只增加字幕栏，不生成新动作；B方使用服务端规范clip与frame_evidence，不用此预览副本的哈希代替规范视频。"
+}

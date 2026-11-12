@@ -1,0 +1,595 @@
+[
+ {
+  "qid": "book_cat_unans_0",
+  "book_id": "book_cat",
+  "qtype": "unanswerable",
+  "question": "为什么天空是蓝色的？",
+  "expect_status": "uncertain",
+  "expect_keywords": [],
+  "allowed_evidence": [],
+  "verified": null
+ },
+ {
+  "qid": "book_ocean_unans_0",
+  "book_id": "book_ocean",
+  "qtype": "unanswerable",
+  "question": "为什么天空是蓝色的？",
+  "expect_status": "uncertain",
+  "expect_keywords": [],
+  "allowed_evidence": [],
+  "verified": null
+ },
+ {
+  "qid": "book_emil_fact_book_emil_v04_fact4",
+  "book_id": "book_emil",
+  "qtype": "book_fact",
+  "question": "书里关于插图中的伊达说了什么？",
+  "expect_keywords": [
+   "插图中的伊达",
+   "穿橙红色衣服"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_emil_v04_fact4"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_pippi_fact_book_pippi_v04_fact2",
+  "book_id": "book_pippi",
+  "qtype": "book_fact",
+  "question": "书里关于插图中的两名说了什么？",
+  "expect_keywords": [
+   "插图中的两名",
+   "孩子拿着槌球"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_pippi_v04_fact2"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_cat_fact_book_cat_fact08",
+  "book_id": "book_cat",
+  "qtype": "book_fact",
+  "question": "书里关于插图中的黄色说了什么？",
+  "expect_keywords": [
+   "插图中的黄色",
+   "条纹猫戴着蓝"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_cat_fact08"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_emil_fact_book_emil_fact02",
+  "book_id": "book_emil",
+  "qtype": "book_fact",
+  "question": "书里关于埃米尔住在卡说了什么？",
+  "expect_keywords": [
+   "埃米尔住在卡",
+   "特胡尔特庄园"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_emil_fact02"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_emil_unans_0",
+  "book_id": "book_emil",
+  "qtype": "unanswerable",
+  "question": "为什么天空是蓝色的？",
+  "expect_status": "uncertain",
+  "expect_keywords": [],
+  "allowed_evidence": [],
+  "verified": null
+ },
+ {
+  "qid": "book_cat_pointer_27c3_v2_f1",
+  "book_id": "book_cat",
+  "qtype": "pointer",
+  "question": "它是谁？",
+  "touch": {
+   "clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+   "asset_version": 2,
+   "t_ms": 0,
+   "x": 0.5,
+   "y": 0.65
+  },
+  "expect_status": "answered",
+  "expect_keywords": [],
+  "allowed_evidence": [],
+  "verified": null
+ },
+ {
+  "qid": "book_cat_unans_1",
+  "book_id": "book_cat",
+  "qtype": "unanswerable",
+  "question": "这本书有多少个字？",
+  "expect_status": "uncertain",
+  "expect_keywords": [],
+  "allowed_evidence": [],
+  "verified": null
+ },
+ {
+  "qid": "book_ocean_unans_1",
+  "book_id": "book_ocean",
+  "qtype": "unanswerable",
+  "question": "这本书有多少个字？",
+  "expect_status": "uncertain",
+  "expect_keywords": [],
+  "allowed_evidence": [],
+  "verified": null
+ },
+ {
+  "qid": "book_pippi_title",
+  "book_id": "book_pippi",
+  "qtype": "book_title",
+  "question": "这本书的名字是什么？",
+  "expect_keywords": [
+   "长袜子皮皮来了"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [],
+  "method_hint": "book_title",
+  "verified": null
+ },
+ {
+  "qid": "book_ocean_fact_book_ocean_fact01",
+  "book_id": "book_ocean",
+  "qtype": "book_fact",
+  "question": "书里关于海岛上的居民说了什么？",
+  "expect_keywords": [
+   "海岛上的居民",
+   "以打渔为生"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_ocean_fact01"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_cat_fact_book_cat_fact05",
+  "book_id": "book_cat",
+  "qtype": "book_fact",
+  "question": "书里关于插图中的猫有说了什么？",
+  "expect_keywords": [
+   "插图中的猫有",
+   "黄色条纹毛"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_cat_fact05"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_cat_pointer_27c3_v2_f3",
+  "book_id": "book_cat",
+  "qtype": "pointer",
+  "question": "它是谁？",
+  "touch": {
+   "clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+   "asset_version": 2,
+   "t_ms": 6125,
+   "x": 0.5,
+   "y": 0.65
+  },
+  "expect_status": "answered",
+  "expect_keywords": [],
+  "allowed_evidence": [],
+  "verified": null
+ },
+ {
+  "qid": "book_emil_entity_book_emil_father",
+  "book_id": "book_emil",
+  "qtype": "entity",
+  "entity_name": "埃米尔的爸爸",
+  "question": "埃米尔的爸爸长什么样子？",
+  "expect_keywords": [
+   "帽子的购买者",
+   "本次未标注外"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [],
+  "method_hint": "any",
+  "verified": null
+ },
+ {
+  "qid": "book_emil_fact_book_emil_fact05",
+  "book_id": "book_emil",
+  "qtype": "book_fact",
+  "question": "书里关于埃米尔的帽子说了什么？",
+  "expect_keywords": [
+   "埃米尔的帽子",
+   "是爸爸从城里"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_emil_fact05"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_emil_fact_book_emil_v04_fact3",
+  "book_id": "book_emil",
+  "qtype": "book_fact",
+  "question": "书里关于伊达很得意说了什么？",
+  "expect_keywords": [
+   "伊达很得意",
+   "因为没有其他"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_emil_v04_fact3"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_ocean_entity_book_ocean_islanders",
+  "book_id": "book_ocean",
+  "qtype": "entity",
+  "entity_name": "海岛居民",
+  "question": "海岛居民长什么样子？",
+  "expect_keywords": [
+   "以打渔为生的",
+   "群体"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [],
+  "method_hint": "any",
+  "verified": null
+ },
+ {
+  "qid": "book_ocean_fact_book_ocean_fact02",
+  "book_id": "book_ocean",
+  "qtype": "book_fact",
+  "question": "书里关于岛上房子的屋说了什么？",
+  "expect_keywords": [
+   "岛上房子的屋",
+   "顶是蓝色的"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_ocean_fact02"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_ocean_fact_book_ocean_v04_fact2",
+  "book_id": "book_ocean",
+  "qtype": "book_fact",
+  "question": "书里关于渔民航行时唱说了什么？",
+  "expect_keywords": [
+   "渔民航行时唱",
+   "海豚"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_ocean_v04_fact2"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_cat_entity_book_cat_cat",
+  "book_id": "book_cat",
+  "qtype": "entity",
+  "entity_name": "穿靴子的猫",
+  "question": "穿靴子的猫长什么样子？",
+  "expect_keywords": [
+   "黄色条纹毛",
+   "红帽带与蓝色"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [],
+  "method_hint": "any",
+  "verified": null
+ },
+ {
+  "qid": "book_cat_pointer_27c3_v2_f2",
+  "book_id": "book_cat",
+  "qtype": "pointer",
+  "question": "它是谁？",
+  "touch": {
+   "clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+   "asset_version": 2,
+   "t_ms": 3125,
+   "x": 0.5,
+   "y": 0.65
+  },
+  "expect_status": "answered",
+  "expect_keywords": [],
+  "allowed_evidence": [],
+  "verified": null
+ },
+ {
+  "qid": "book_emil_fact_book_emil_fact03",
+  "book_id": "book_emil",
+  "qtype": "book_fact",
+  "question": "书里关于插图中的埃米说了什么？",
+  "expect_keywords": [
+   "插图中的埃米",
+   "尔穿蓝色衣服"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_emil_fact03"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_cat_title",
+  "book_id": "book_cat",
+  "qtype": "book_title",
+  "question": "这本书的名字是什么？",
+  "expect_keywords": [
+   "穿靴子的猫"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [],
+  "method_hint": "book_title",
+  "verified": null
+ },
+ {
+  "qid": "book_ocean_fact_book_ocean_fact04",
+  "book_id": "book_ocean",
+  "qtype": "book_fact",
+  "question": "书里关于巴斯蒂安家中说了什么？",
+  "expect_keywords": [
+   "巴斯蒂安家中",
+   "祖祖辈辈以打"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_ocean_fact04"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_ocean_fact_book_ocean_fact06",
+  "book_id": "book_ocean",
+  "qtype": "book_fact",
+  "question": "书里关于插图中人物有说了什么？",
+  "expect_keywords": [
+   "插图中人物有",
+   "深色头发和蓝"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_ocean_fact06"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_pippi_fact_book_pippi_fact01",
+  "book_id": "book_pippi",
+  "qtype": "book_fact",
+  "question": "书里关于杜米和阿妮卡说了什么？",
+  "expect_keywords": [
+   "杜米和阿妮卡",
+   "在自己家的院"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_pippi_fact01"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_pippi_unans_1",
+  "book_id": "book_pippi",
+  "qtype": "unanswerable",
+  "question": "这本书有多少个字？",
+  "expect_status": "uncertain",
+  "expect_keywords": [],
+  "allowed_evidence": [],
+  "verified": null
+ },
+ {
+  "qid": "book_ocean_fact_book_ocean_v04_fact1",
+  "book_id": "book_ocean",
+  "qtype": "book_fact",
+  "question": "书里关于插图中有白色说了什么？",
+  "expect_keywords": [
+   "插图中有白色",
+   "风帆和红色鱼"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_ocean_v04_fact1"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_emil_fact_book_emil_fact04",
+  "book_id": "book_emil",
+  "qtype": "book_fact",
+  "question": "书里关于阿尔弗雷德给说了什么？",
+  "expect_keywords": [
+   "阿尔弗雷德给",
+   "埃米尔削了一"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_emil_fact04"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_pippi_entity_book_pippi_pippi",
+  "book_id": "book_pippi",
+  "qtype": "entity",
+  "entity_name": "长袜子皮皮",
+  "question": "长袜子皮皮长什么样子？",
+  "expect_keywords": [
+   "红色辫子",
+   "蓝色衣服"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [],
+  "method_hint": "any",
+  "verified": null
+ },
+ {
+  "qid": "book_cat_entity_book_cat_youngest",
+  "book_id": "book_cat",
+  "qtype": "entity",
+  "entity_name": "小儿子",
+  "question": "小儿子长什么样子？",
+  "expect_keywords": [
+   "继承猫的主人",
+   "按文件页"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [],
+  "method_hint": "any",
+  "verified": null
+ },
+ {
+  "qid": "book_pippi_fact_book_pippi_v04_fact1",
+  "book_id": "book_pippi",
+  "qtype": "book_fact",
+  "question": "书里关于插图中被皮皮说了什么？",
+  "expect_keywords": [
+   "插图中被皮皮",
+   "举起的马是白"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_pippi_v04_fact1"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_emil_fact_book_emil_fact01",
+  "book_id": "book_emil",
+  "qtype": "book_fact",
+  "question": "书里关于埃米尔和爸爸说了什么？",
+  "expect_keywords": [
+   "埃米尔和爸爸",
+   "妈妈"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_emil_fact01"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_pippi_fact_book_pippi_fact02",
+  "book_id": "book_pippi",
+  "qtype": "book_fact",
+  "question": "书里关于杜米和阿妮卡说了什么？",
+  "expect_keywords": [
+   "杜米和阿妮卡",
+   "都希望有一个"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_pippi_fact02"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_cat_entity_book_cat_rabbit",
+  "book_id": "book_cat",
+  "qtype": "entity",
+  "entity_name": "兔子",
+  "question": "兔子长什么样子？",
+  "expect_keywords": [
+   "白色长耳",
+   "粉色耳内与腹"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [],
+  "method_hint": "any",
+  "verified": null
+ },
+ {
+  "qid": "book_cat_fact_book_cat_fact01",
+  "book_id": "book_cat",
+  "qtype": "book_fact",
+  "question": "书里关于老磨坊主把磨说了什么？",
+  "expect_keywords": [
+   "老磨坊主把磨",
+   "坊留给大儿子"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_cat_fact01"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_pippi_entity_book_pippi_annika",
+  "book_id": "book_pippi",
+  "qtype": "entity",
+  "entity_name": "阿妮卡",
+  "question": "阿妮卡长什么样子？",
+  "expect_keywords": [
+   "在院子玩槌球",
+   "的孩子"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [],
+  "method_hint": "any",
+  "verified": null
+ },
+ {
+  "qid": "book_pippi_fact_book_pippi_fact03",
+  "book_id": "book_pippi",
+  "qtype": "book_fact",
+  "question": "书里关于两人院子旁边说了什么？",
+  "expect_keywords": [
+   "两人院子旁边",
+   "的房子当时还"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [
+   "book_pippi_fact03"
+  ],
+  "method_hint": "extractive_fact",
+  "verified": null
+ },
+ {
+  "qid": "book_pippi_entity_book_pippi_horse",
+  "book_id": "book_pippi",
+  "qtype": "entity",
+  "entity_name": "马",
+  "question": "马长什么样子？",
+  "expect_keywords": [
+   "皮皮举起的一",
+   "匹马"
+  ],
+  "expect_status": "answered",
+  "allowed_evidence": [],
+  "method_hint": "any",
+  "verified": null
+ }
+]

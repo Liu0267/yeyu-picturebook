@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "consumer": "standalone HTTP script with no A-internal imports",
+  "book_id": "book_mock",
+  "manifest_revision": 1,
+  "checks": [
+    {
+      "clip_id": "clip_576e5e1e055e46f8af60cf5064157339",
+      "range": "passed",
+      "media_sha256": "74c90c6e8941d27790971f4757bdc63ac1e6ee864559eefe1e32ecf4730bb07f",
+      "actual_frame_pixel_matches": 3,
+      "is_mock": true
+    }
+  ],
+  "approved_compilations": 0,
+  "limitation": "A-side contract consumer verification; does not represent B implementation or team acceptance."
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "service_version": "0.3.0",
+  "transport": "live localhost HTTP",
+  "external_calls": 0,
+  "real_published_clips": 1,
+  "reviewed_frames": 3,
+  "media_sha256": "matched",
+  "range": "206,32 bytes",
+  "audio": "200",
+  "subtitles": "200 and expected text",
+  "live_docs": "http://127.0.0.1:8765/docs"
+}

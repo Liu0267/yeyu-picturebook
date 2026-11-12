@@ -1,0 +1,104 @@
+[
+  {
+    "frame_id": "clip_3a59f686e1c34517a82d53c45ca327c3_v2_f1",
+    "clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+    "asset_version": 2,
+    "t_ms": 0,
+    "image_asset_id": "asset_5b002d86aa0a943917ca0590",
+    "video_sha256": "a1a9f89de9848b20929ee08b0ae2949617566f0a8c1367c8e031ca0245e8bc3b",
+    "visual_claims": [
+      {
+        "claim": "黄色条纹猫横卧在绿色草地上，右侧为树干。",
+        "region": {
+          "x1": 0.0,
+          "y1": 0.3,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "observed_by": "assistant_actual_frame_review_2026-11-10",
+        "method": "vlm_frame_review"
+      },
+      {
+        "claim": "猫戴着红帽带、蓝羽毛的浅色帽子，并穿着棕色靴子。",
+        "region": {
+          "x1": 0.0,
+          "y1": 0.02,
+          "x2": 0.92,
+          "y2": 0.85
+        },
+        "observed_by": "assistant_actual_frame_review_2026-11-10",
+        "method": "vlm_frame_review"
+      }
+    ],
+    "status": "reviewed",
+    "is_mock": false
+  },
+  {
+    "frame_id": "clip_3a59f686e1c34517a82d53c45ca327c3_v2_f2",
+    "clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+    "asset_version": 2,
+    "t_ms": 3125,
+    "image_asset_id": "asset_d4f69a1675aaeb2f61b9b2b1",
+    "video_sha256": "a1a9f89de9848b20929ee08b0ae2949617566f0a8c1367c8e031ca0245e8bc3b",
+    "visual_claims": [
+      {
+        "claim": "黄色条纹猫横卧在绿色草地上，右侧为树干。",
+        "region": {
+          "x1": 0.0,
+          "y1": 0.3,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "observed_by": "assistant_actual_frame_review_2026-11-10",
+        "method": "vlm_frame_review"
+      },
+      {
+        "claim": "猫戴着红帽带、蓝羽毛的浅色帽子，并穿着棕色靴子。",
+        "region": {
+          "x1": 0.0,
+          "y1": 0.02,
+          "x2": 0.92,
+          "y2": 0.85
+        },
+        "observed_by": "assistant_actual_frame_review_2026-11-10",
+        "method": "vlm_frame_review"
+      }
+    ],
+    "status": "reviewed",
+    "is_mock": false
+  },
+  {
+    "frame_id": "clip_3a59f686e1c34517a82d53c45ca327c3_v2_f3",
+    "clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+    "asset_version": 2,
+    "t_ms": 6125,
+    "image_asset_id": "asset_89bc29a302168f3429690211",
+    "video_sha256": "a1a9f89de9848b20929ee08b0ae2949617566f0a8c1367c8e031ca0245e8bc3b",
+    "visual_claims": [
+      {
+        "claim": "黄色条纹猫横卧在绿色草地上，右侧为树干。",
+        "region": {
+          "x1": 0.0,
+          "y1": 0.3,
+          "x2": 1.0,
+          "y2": 1.0
+        },
+        "observed_by": "assistant_actual_frame_review_2026-11-10",
+        "method": "vlm_frame_review"
+      },
+      {
+        "claim": "猫戴着红帽带、蓝羽毛的浅色帽子，并穿着棕色靴子。",
+        "region": {
+          "x1": 0.0,
+          "y1": 0.02,
+          "x2": 0.92,
+          "y2": 0.85
+        },
+        "observed_by": "assistant_actual_frame_review_2026-11-10",
+        "method": "vlm_frame_review"
+      }
+    ],
+    "status": "reviewed",
+    "is_mock": false
+  }
+]

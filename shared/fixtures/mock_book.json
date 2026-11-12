@@ -1,0 +1,83 @@
+{
+  "schema_version": "0.1.0",
+  "book_id": "book_mock",
+  "title": "合成测试书（MOCK）",
+  "revision": 1,
+  "is_mock": true,
+  "rights_status": "team_synthetic_fixture",
+  "external_upload_allowed": false,
+  "source_filename": "mock.png",
+  "source_sha256": "bbbda566391ad49613253126d77ba5232771a8d92d5799396d3db8068eb5747b",
+  "pages": [
+    {
+      "page_id": "book_mock_p001",
+      "sequence": 1,
+      "printed_page": null,
+      "page_revision": 1,
+      "image_asset_id": "asset_bbbda566391ad49613253126",
+      "width": 640,
+      "height": 360,
+      "source_locator": "synthetic:fixture:1",
+      "ocr_engine": "not_run",
+      "ocr_lines": [],
+      "quality_flags": [
+        "possible_spread_keep_unsplit",
+        "small_image",
+        "ocr_not_run",
+        "no_text_found_check_original"
+      ],
+      "review_status": "reviewed"
+    }
+  ],
+  "source_refs": [
+    {
+      "ref_id": "mock_ref1",
+      "page_id": "book_mock_p001",
+      "kind": "original_image",
+      "locator": "synthetic:fixture:1",
+      "region": {
+        "x1": 0.3,
+        "y1": 0.24,
+        "x2": 0.7,
+        "y2": 0.76
+      },
+      "excerpt": ""
+    }
+  ],
+  "facts": [
+    {
+      "fact_id": "mock_fact1",
+      "page_id": "book_mock_p001",
+      "claim": "画面中央有一本展开的书。",
+      "kind": "visual_observation",
+      "source_ref_ids": [
+        "mock_ref1"
+      ],
+      "status": "reviewed",
+      "reviewed_by": "synthetic_fixture_author"
+    }
+  ],
+  "entities": [
+    {
+      "entity_id": "mock_entity1",
+      "name": "书",
+      "description": "矩形展开的书",
+      "source_ref_ids": [
+        "mock_ref1"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "event_id": "mock_event1",
+      "sequence": 1,
+      "description": "书出现在中央",
+      "fact_ids": [
+        "mock_fact1"
+      ],
+      "entity_ids": [
+        "mock_entity1"
+      ]
+    }
+  ]
+}

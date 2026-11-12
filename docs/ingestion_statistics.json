@@ -1,0 +1,58 @@
+[
+  {
+    "book_id": "book_cat",
+    "title": "穿靴子的猫",
+    "pages": 27,
+    "ocr_pages": 27,
+    "embedded_text_pages": 0,
+    "lines": 219,
+    "scored_lines": 219,
+    "low_confidence_lines": 195,
+    "no_text_pages": 9,
+    "facts": 6,
+    "entities": 3,
+    "source_sha256": "962787b81faa67160015d6fcb6a426f85046587754d99a97ce3a2633aa71e998"
+  },
+  {
+    "book_id": "book_emil",
+    "title": "好一个埃米尔",
+    "pages": 36,
+    "ocr_pages": 36,
+    "embedded_text_pages": 0,
+    "lines": 561,
+    "scored_lines": 561,
+    "low_confidence_lines": 162,
+    "no_text_pages": 2,
+    "facts": 6,
+    "entities": 3,
+    "source_sha256": "8e2713e8d98a9e1fa491ecda958a4c9fe9bfbc7e034f57f0afd03b2620fd5f11"
+  },
+  {
+    "book_id": "book_ocean",
+    "title": "海洋女神",
+    "pages": 25,
+    "ocr_pages": 6,
+    "embedded_text_pages": 19,
+    "lines": 199,
+    "scored_lines": 83,
+    "low_confidence_lines": 53,
+    "no_text_pages": 2,
+    "facts": 6,
+    "entities": 2,
+    "source_sha256": "98c9e6ef1c9db878edc9ab7ea9cc63cbd523deb8d3158bfd98710adb30c7a3ca"
+  },
+  {
+    "book_id": "book_pippi",
+    "title": "长袜子皮皮来了",
+    "pages": 27,
+    "ocr_pages": 26,
+    "embedded_text_pages": 1,
+    "lines": 315,
+    "scored_lines": 292,
+    "low_confidence_lines": 137,
+    "no_text_pages": 1,
+    "facts": 6,
+    "entities": 4,
+    "source_sha256": "6b35fa51cda4d9c002d34ccbaa70b4ccdc74d7a7cd7f87a3707a0815375a7e9d"
+  }
+]

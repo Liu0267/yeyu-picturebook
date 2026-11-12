@@ -1,0 +1,52 @@
+{
+  "page_id": "book_emil_p008",
+  "before_page_revision": 3,
+  "before_order": [
+    "book_emil_p008_l001",
+    "book_emil_p008_l002",
+    "book_emil_p008_l003",
+    "book_emil_p008_l004",
+    "book_emil_p008_l005",
+    "book_emil_p008_l006",
+    "book_emil_p008_l007",
+    "book_emil_p008_l008",
+    "book_emil_p008_l009",
+    "book_emil_p008_l010",
+    "book_emil_p008_l011",
+    "book_emil_p008_l012",
+    "book_emil_p008_l013",
+    "book_emil_p008_l014",
+    "book_emil_p008_l015",
+    "book_emil_p008_l016",
+    "book_emil_p008_l017",
+    "book_emil_p008_l018"
+  ],
+  "proposal": {
+    "status": "two_column_proposal",
+    "split_x": 0.5,
+    "line_ids": [
+      "book_emil_p008_l001",
+      "book_emil_p008_l002",
+      "book_emil_p008_l003",
+      "book_emil_p008_l004",
+      "book_emil_p008_l005",
+      "book_emil_p008_l006",
+      "book_emil_p008_l008",
+      "book_emil_p008_l010",
+      "book_emil_p008_l012",
+      "book_emil_p008_l014",
+      "book_emil_p008_l016",
+      "book_emil_p008_l007",
+      "book_emil_p008_l009",
+      "book_emil_p008_l011",
+      "book_emil_p008_l013",
+      "book_emil_p008_l015",
+      "book_emil_p008_l017",
+      "book_emil_p008_l018"
+    ],
+    "requires_review": true,
+    "limitation": "Geometric proposal only. Marginal notes, speech balloons, RTL text and complex layouts require manual order."
+  },
+  "source_image_review": "assistant inspected original page8 top text block, then bottom-left column continuing into bottom-right",
+  "new_page_revision": 4
+}

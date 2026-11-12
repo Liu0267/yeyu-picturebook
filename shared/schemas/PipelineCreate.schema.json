@@ -1,0 +1,28 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "shot_id": {
+      "title": "Shot Id",
+      "type": "string"
+    },
+    "idempotency_key": {
+      "maxLength": 160,
+      "minLength": 1,
+      "title": "Idempotency Key",
+      "type": "string"
+    },
+    "resume_run_ids": {
+      "additionalProperties": {
+        "type": "string"
+      },
+      "title": "Resume Run Ids",
+      "type": "object"
+    }
+  },
+  "required": [
+    "shot_id",
+    "idempotency_key"
+  ],
+  "title": "PipelineCreate",
+  "type": "object"
+}

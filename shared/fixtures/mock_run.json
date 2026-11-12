@@ -1,0 +1,68 @@
+{
+  "run_id": "run_2913051a05fb45bebe458d646f7ddc52",
+  "step": "video_generation",
+  "model_version": "synthetic-fixture-v1",
+  "input_hash": "92e7bfc11f434c8024f089b5dcf69d8d41d56ca84936d84c22b1e0060e228118",
+  "status": "succeeded",
+  "error": null,
+  "attempts": 1,
+  "max_attempts": 2,
+  "created_at": "2026-11-09T16:38:27.491217+00:00",
+  "updated_at": "2026-11-09T16:40:10.500912+00:00",
+  "payload": {
+    "shot": {
+      "shot_id": "book_mock_p001_r1_shot1",
+      "book_id": "book_mock",
+      "manifest_revision": 1,
+      "page_id": "book_mock_p001",
+      "page_revision": 1,
+      "fact_ids": [
+        "mock_fact1"
+      ],
+      "entity_ids": [
+        "mock_entity1"
+      ],
+      "reference_asset_id": "asset_bbbda566391ad49613253126",
+      "reference_region": {
+        "x1": 0.0,
+        "y1": 0.0,
+        "x2": 1.0,
+        "y2": 1.0
+      },
+      "narration": "画面中央有一本展开的书。",
+      "creative_additions": [
+        "轻微镜头运动为演绎，实际动作须复核"
+      ],
+      "prompt_version": "source-bound-v1",
+      "prompt": "依据当前原页作参考，保留原插图人物、色彩和笔触。仅表现：画面中央有一本展开的书。",
+      "negative_prompt": "不得新增人物、改动数量、替换关键物品或颠倒因果；不重绘文字，不合成新对话。",
+      "target_duration_ms": 6000,
+      "status": "approved"
+    }
+  },
+  "outputs": [
+    "clip_576e5e1e055e46f8af60cf5064157339",
+    "clip_576e5e1e055e46f8af60cf5064157339_v1_f1",
+    "clip_576e5e1e055e46f8af60cf5064157339_v1_f2",
+    "clip_576e5e1e055e46f8af60cf5064157339_v1_f3"
+  ],
+  "trace": [
+    {
+      "node": "video_generation",
+      "status": "running",
+      "at": "2026-11-09T16:38:27.491313+00:00"
+    },
+    {
+      "node": "video_generation",
+      "status": "needs_review",
+      "at": "2026-11-09T16:38:27.995725+00:00",
+      "elapsed_ms": 504
+    }
+  ],
+  "usage": {
+    "external_calls": 0,
+    "cost": 0,
+    "currency": "CNY"
+  },
+  "is_mock": true
+}

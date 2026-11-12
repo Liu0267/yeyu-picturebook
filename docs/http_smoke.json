@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "transport": "loopback_direct_no_proxy",
+  "checks": [
+    {
+      "path": "/v1/health",
+      "status": 200
+    },
+    {
+      "path": "/v1/books",
+      "status": 200
+    },
+    {
+      "path": "/v1/books/book_cat/manifest",
+      "status": 200
+    },
+    {
+      "path": "/v1/books/book_mock/clips",
+      "status": 200
+    },
+    {
+      "path": "/openapi.json",
+      "status": 200
+    },
+    {
+      "path": "/v1/assets/{mock_video}",
+      "status": 206,
+      "bytes": 100
+    },
+    {
+      "path": "CORS preflight",
+      "status": 200
+    }
+  ]
+}

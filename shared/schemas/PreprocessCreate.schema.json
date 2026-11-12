@@ -1,0 +1,105 @@
+{
+  "$defs": {
+    "Region": {
+      "additionalProperties": false,
+      "properties": {
+        "x1": {
+          "default": 0,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "X1",
+          "type": "number"
+        },
+        "y1": {
+          "default": 0,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Y1",
+          "type": "number"
+        },
+        "x2": {
+          "default": 1,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "X2",
+          "type": "number"
+        },
+        "y2": {
+          "default": 1,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Y2",
+          "type": "number"
+        }
+      },
+      "title": "Region",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "expected_page_revision": {
+      "minimum": 1,
+      "title": "Expected Page Revision",
+      "type": "integer"
+    },
+    "rotation_clockwise": {
+      "default": 0,
+      "enum": [
+        0,
+        90,
+        180,
+        270
+      ],
+      "title": "Rotation Clockwise",
+      "type": "integer"
+    },
+    "chinese_text_region": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Region"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null
+    },
+    "corners_after_rotation": {
+      "anyOf": [
+        {
+          "items": {
+            "maxItems": 2,
+            "minItems": 2,
+            "prefixItems": [
+              {
+                "maximum": 1,
+                "minimum": 0,
+                "type": "number"
+              },
+              {
+                "maximum": 1,
+                "minimum": 0,
+                "type": "number"
+              }
+            ],
+            "type": "array"
+          },
+          "maxItems": 4,
+          "minItems": 4,
+          "type": "array"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "title": "Corners After Rotation"
+    }
+  },
+  "required": [
+    "expected_page_revision"
+  ],
+  "title": "PreprocessCreate",
+  "type": "object"
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "book_id": "book_cat",
+    "pages": 27,
+    "pages_with_model_drafts": 1,
+    "pages_with_reviewed_facts": 4,
+    "facts": 8,
+    "entities": 3,
+    "events": 4,
+    "whole_book_accuracy": "not measured",
+    "independent_human_review": "pending"
+  },
+  {
+    "book_id": "book_emil",
+    "pages": 36,
+    "pages_with_model_drafts": 0,
+    "pages_with_reviewed_facts": 4,
+    "facts": 10,
+    "entities": 4,
+    "events": 4,
+    "whole_book_accuracy": "not measured",
+    "independent_human_review": "pending"
+  },
+  {
+    "book_id": "book_ocean",
+    "pages": 25,
+    "pages_with_model_drafts": 0,
+    "pages_with_reviewed_facts": 2,
+    "facts": 8,
+    "entities": 2,
+    "events": 2,
+    "whole_book_accuracy": "not measured",
+    "independent_human_review": "pending"
+  },
+  {
+    "book_id": "book_pippi",
+    "pages": 27,
+    "pages_with_model_drafts": 0,
+    "pages_with_reviewed_facts": 2,
+    "facts": 8,
+    "entities": 4,
+    "events": 2,
+    "whole_book_accuracy": "not measured",
+    "independent_human_review": "pending"
+  }
+]

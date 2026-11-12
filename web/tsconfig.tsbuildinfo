@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/api/a-schema.d.ts","./src/api/client.ts","./src/api/types.ts","./src/components/holdtotalk.tsx","./src/components/videostage.tsx","./src/pages/ingestpage.tsx","./src/pages/playerpage.tsx","./src/pages/progresspage.tsx","./src/pages/reviewpage.tsx","./src/pages/shelfpage.tsx","./src/state/readingmachine.ts"],"version":"5.9.3"}

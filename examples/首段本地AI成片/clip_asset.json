@@ -1,0 +1,20 @@
+{
+  "clip_id": "clip_3a59f686e1c34517a82d53c45ca327c3",
+  "book_id": "book_cat",
+  "page_id": "book_cat_p008",
+  "shot_id": "book_cat_p008_r2_wan4s",
+  "manifest_revision": 2,
+  "page_revision": 2,
+  "asset_version": 2,
+  "duration_ms": 6250,
+  "status": "approved",
+  "asset_id": "asset_a1a9f89de9848b20929ee08b",
+  "is_mock": false,
+  "provenance": "model_generated",
+  "run_id": "run_39fd92e263ef4672881a5fc7685fe4df",
+  "model_call_id": "run_38c646bfd2d04718899ab806fecc08eb",
+  "reviewed_by": "assistant_actual_frame_review_2026-11-10",
+  "audio_asset_id": "asset_0d1bf9cb425791d98b44216e",
+  "subtitle_asset_id": "asset_ee5fa744210910c416c3f1a0",
+  "source_video_asset_id": "asset_885b85e136015701b3e57ae0"
+}

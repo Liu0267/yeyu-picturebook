@@ -1,0 +1,393 @@
+{
+  "scope": "all non-Mock registered runs; diagnostics with separate scratch receipts are reported separately",
+  "runs": 17,
+  "status_counts": {
+    "succeeded": 1,
+    "failed": 6,
+    "needs_review": 7,
+    "queued": 1,
+    "cancelled": 1,
+    "running": 1
+  },
+  "records": [
+    {
+      "run_id": "run_0dd361b5250a4428af2ad1ab9f5de1e5",
+      "step": "video_generation",
+      "status": "succeeded",
+      "model_version": "Wan2.2-TI2V-5B-Q4_K_S+TAEHV-9055eee",
+      "attempts": 1,
+      "input_hash": "43dba94e670eee40f78e1177e52d998447cae757f130d54d1caabfdac65be26e",
+      "usage": {
+        "external_calls": 0,
+        "external_api_cost": 0,
+        "local_inference_ms": 1035577,
+        "requested_frames": 17,
+        "fps": 8,
+        "width": 512,
+        "height": 384
+      },
+      "error": null,
+      "native_profile": {
+        "model": "Wan2.2-TI2V-5B-Q4_K_S+TAEHV-9055eee",
+        "reference_sha256": "a1a9ab1541be6f14c9683a98ff09cb72e853dae5c6f1f56e6d5090edcf7858f5",
+        "input_sha256": "80eda2f32f2788eb8ae474572d7660c21d1b530de354f981193e88ba6dc2b5a5",
+        "runtime_sha256": "86c727cd97e47a5caf8d997553248713075e868f1fbdc4418a53974a742d93ee",
+        "width": 512,
+        "height": 384,
+        "frames": 17,
+        "fps": 8,
+        "steps": 20,
+        "seed": 42,
+        "prompt": "A hand-painted storybook illustration comes gently alive. The single yellow striped cat in brown boots bows politely while holding its straw hat with red band and blue feather, keeping the one white rabbit in its other paw exactly as in the reference. A small gentle nod and slight hat movement only. Keep all limbs and the rabbit stable. Preserve the patterned palace floor, watercolor paper texture and composition. Locked camera. No extra characters. No text.",
+        "negative_prompt": "photorealistic, 3d, camera movement, new characters, extra limbs, deformed ears, duplicate rabbit, duplicate cat, violent action, blood, text, letters, subtitles, watermark, colored stripes, corrupted image"
+      },
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_170856fc6cce48e1989ee8f4e4e56367",
+      "step": "video_generation",
+      "status": "failed",
+      "model_version": "agnes-video-2.5-flash",
+      "attempts": 1,
+      "input_hash": "a7b4a7ea1d515993ba636c075ce422a3692a28b080d3795501e032305f98f47f",
+      "usage": {
+        "external_calls": 1,
+        "accepted_tasks": 0,
+        "cost": null,
+        "provider_error_code": "video_queue_full"
+      },
+      "error": {
+        "code": "AGNES_QUEUE_FULL",
+        "message": "明确的队列拒绝已达到本轮重试上限，未创建可查询任务。",
+        "retryable": false
+      },
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_23e390a8f98148de9b9de41cb5d5aeb5",
+      "step": "narration_render",
+      "status": "needs_review",
+      "model_version": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-4bit",
+      "attempts": 1,
+      "input_hash": "b2892d694d6c47545c4645c29e132364d1b8806cccf89d33c742eca1323de186",
+      "usage": {
+        "local_inference_ms": 11007,
+        "peak_memory_bytes": 4859763224,
+        "external_calls": 0,
+        "audio_duration_ms": 4480,
+        "subtitle_start_ms": 200,
+        "subtitle_end_ms": 4680,
+        "requested_tail_extension_ms": 2805,
+        "tail_extension_ms": 2805,
+        "actual_video_duration_ms": 4930,
+        "alignment": "single_utterance_actual_waveform_duration"
+      },
+      "error": null,
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_2d3e7d1a389444ada9f55ba33e2c0d9b",
+      "step": "video_generation",
+      "status": "failed",
+      "model_version": null,
+      "attempts": 1,
+      "input_hash": "4b7c6463829069a2ae5f44e648a91e717fa6f029ebbd95b14999234f8bfd3086",
+      "usage": {},
+      "error": {
+        "code": "AGNES_REQUEST_REJECTED",
+        "message": "Agnes 拒绝请求（HTTP 503），参见本地供应商记录。",
+        "retryable": false
+      },
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_38c646bfd2d04718899ab806fecc08eb",
+      "step": "video_generation",
+      "status": "needs_review",
+      "model_version": "Wan2.2-TI2V-5B-Q4_K_S+TAEHV-9055eee",
+      "attempts": 1,
+      "input_hash": "99de11b7982043eead8981a25bc618bdc39f759c3e90886eb942eb34055f92fc",
+      "usage": {
+        "external_calls": 0,
+        "external_api_cost": 0,
+        "local_inference_ms": 1803024,
+        "requested_frames": 33,
+        "fps": 8,
+        "width": 512,
+        "height": 384
+      },
+      "error": null,
+      "native_profile": {
+        "model": "Wan2.2-TI2V-5B-Q4_K_S+TAEHV-9055eee",
+        "reference_sha256": "f67c1f5cc1061bd536819559ddabbe514083e7f554b2d86970ede9b8903a8f86",
+        "input_sha256": "b6dbf07c6b03cdc51632dcbd8dab1ad4bb82f1fe95c1778339faea9c68bd6014",
+        "runtime_sha256": "86c727cd97e47a5caf8d997553248713075e868f1fbdc4418a53974a742d93ee",
+        "width": 512,
+        "height": 384,
+        "frames": 33,
+        "fps": 8,
+        "steps": 20,
+        "seed": 42,
+        "prompt": "A colored-pencil picture-book illustration comes gently to life. The single yellow striped cat remains lying on grass beside the tree. It blinks once, breathes subtly and gently moves only the tip of its long tail. Keep its brown boots, straw hat with red band and blue feather, patterned scarf, original face and colored-pencil textures unchanged. Fixed camera, continuous shot, very small natural movement.",
+        "negative_prompt": "new characters, rabbit, extra animals, extra limbs, morphing, altered clothing, missing boots, duplicated face, chasing, running, standing up, talking, photorealism, 3D rendering, text, watermark, camera movement, scene cut"
+      },
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_39fd92e263ef4672881a5fc7685fe4df",
+      "step": "narration_render",
+      "status": "needs_review",
+      "model_version": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-4bit",
+      "attempts": 1,
+      "input_hash": "f1d30279d30ff4056e57e9668bf554b8d9148e1bcaa6ded2aeef189bada045f5",
+      "usage": {
+        "local_inference_ms": 16883,
+        "peak_memory_bytes": 4966854447,
+        "external_calls": 0,
+        "audio_duration_ms": 5760,
+        "subtitle_start_ms": 200,
+        "subtitle_end_ms": 5960,
+        "requested_tail_extension_ms": 2085,
+        "tail_extension_ms": 2125,
+        "actual_video_duration_ms": 6250,
+        "alignment": "single_utterance_actual_waveform_duration"
+      },
+      "error": null,
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_3d70fc4916fc460ebab96728f72cad05",
+      "step": "page_preprocess",
+      "status": "queued",
+      "model_version": null,
+      "attempts": 0,
+      "input_hash": "ae3519f77851c74ef988c3958c8a9cdfdb26e12fda6e7aacf127746770671de6",
+      "usage": {},
+      "error": null,
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_53849c937a594b89b95c32a77ecdb132",
+      "step": "video_generation",
+      "status": "failed",
+      "model_version": "agnes-video-2.5-flash",
+      "attempts": 1,
+      "input_hash": "4b7c6463829069a2ae5f44e648a91e717fa6f029ebbd95b14999234f8bfd3086",
+      "usage": {
+        "external_calls": 3,
+        "accepted_tasks": 0,
+        "cost": null,
+        "provider_error_code": "video_queue_full"
+      },
+      "error": {
+        "code": "AGNES_QUEUE_FULL",
+        "message": "明确的队列拒绝已达到本轮重试上限，未创建可查询任务。",
+        "retryable": false
+      },
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_9c5c8d2552c8429db787993430bcb3f2",
+      "step": "narration",
+      "status": "needs_review",
+      "model_version": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-4bit",
+      "attempts": 1,
+      "input_hash": "4b7c6463829069a2ae5f44e648a91e717fa6f029ebbd95b14999234f8bfd3086",
+      "usage": {
+        "local_inference_ms": 6542,
+        "peak_memory_bytes": 4966852399,
+        "external_calls": 0
+      },
+      "error": null,
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_9cc8797adad64b7a90539365fb0035aa",
+      "step": "video_generation",
+      "status": "needs_review",
+      "model_version": "Wan2.2-TI2V-5B-Q4_K_S+TAEHV-9055eee",
+      "attempts": 1,
+      "input_hash": "84c7e1642c1d66bc6aebfdc60270c38a8fdd55317b4c43f2daf5ca4f2b63fe14",
+      "usage": {
+        "external_calls": 0,
+        "external_api_cost": 0,
+        "local_inference_ms": 971934,
+        "requested_frames": 17,
+        "fps": 8,
+        "width": 512,
+        "height": 384
+      },
+      "error": null,
+      "native_profile": {
+        "model": "Wan2.2-TI2V-5B-Q4_K_S+TAEHV-9055eee",
+        "reference_sha256": "e7ec426363dd4823eccc99db6ae76c55fb47e480aefe4ff5e429e24fe8748441",
+        "input_sha256": "92d01391d20117cafa2e77208191c31f0fef47389a0ed186a62687df1c04a393",
+        "runtime_sha256": "86c727cd97e47a5caf8d997553248713075e868f1fbdc4418a53974a742d93ee",
+        "width": 512,
+        "height": 384,
+        "frames": 17,
+        "fps": 8,
+        "steps": 20,
+        "seed": 42,
+        "prompt": "Animate this illustration into a short storybook scene with natural movement.",
+        "negative_prompt": "blurry, low quality, watermark"
+      },
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_9f59b74cc87d4d5b8cff20c3d39fd301",
+      "step": "video_generation",
+      "status": "cancelled",
+      "model_version": null,
+      "attempts": 0,
+      "input_hash": "4c06fe4f0fd40182a4177ea77c01146ccd5e8f51d7797a1279d82a9f1bd83b69",
+      "usage": {},
+      "error": null,
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_a9c3f0a633a24dba96b1e35daa1a8c05",
+      "step": "video_generation",
+      "status": "failed",
+      "model_version": "agnes-video-2.5-flash",
+      "attempts": 1,
+      "input_hash": "a7b4a7ea1d515993ba636c075ce422a3692a28b080d3795501e032305f98f47f",
+      "usage": {
+        "external_calls": 1,
+        "accepted_tasks": 0,
+        "cost": null,
+        "provider_error_code": "video_queue_full"
+      },
+      "error": {
+        "code": "AGNES_QUEUE_FULL",
+        "message": "明确的队列拒绝已达到本轮重试上限，未创建可查询任务。",
+        "retryable": false
+      },
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_b05b32e45f974a1cb734e1fccac9d660",
+      "step": "video_generation",
+      "status": "failed",
+      "model_version": "agnes-video-2.5-flash",
+      "attempts": 1,
+      "input_hash": "52770f7948bf25d9769f5ce54d5be9a09213eb70026ee1f25104f9bb71bb8380",
+      "usage": {
+        "external_calls": 1,
+        "accepted_tasks": 0,
+        "cost": null,
+        "provider_error_code": "video_queue_full"
+      },
+      "error": {
+        "code": "AGNES_QUEUE_FULL",
+        "message": "明确的队列拒绝已达到本轮重试上限，未创建可查询任务。",
+        "retryable": false
+      },
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_b99e273f02864b56a5fd2741b6e6db6e",
+      "step": "page_understanding",
+      "status": "needs_review",
+      "model_version": "mlx-community/Qwen3-VL-4B-Instruct-4bit",
+      "attempts": 1,
+      "input_hash": "079e55f502b7f2b91e4a5d031ccf1526d6158c3b1ead765ab2bf200014118942",
+      "usage": {
+        "local_inference_ms": 26695,
+        "peak_memory_bytes": 4001532508,
+        "external_calls": 0
+      },
+      "error": null,
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_d410428ec7f74309bfa6ebd832b6725d",
+      "step": "video_generation",
+      "status": "running",
+      "model_version": null,
+      "attempts": 1,
+      "input_hash": "43495ce0750f985961434ab67b20a476e20d396ad49b07d65360ffa9688e138f",
+      "usage": {},
+      "error": null,
+      "native_profile": {
+        "model": "Wan2.2-TI2V-5B-Q4_K_S+TAEHV-9055eee",
+        "reference_sha256": "f67c1f5cc1061bd536819559ddabbe514083e7f554b2d86970ede9b8903a8f86",
+        "input_sha256": "b6dbf07c6b03cdc51632dcbd8dab1ad4bb82f1fe95c1778339faea9c68bd6014",
+        "runtime_sha256": "86c727cd97e47a5caf8d997553248713075e868f1fbdc4418a53974a742d93ee",
+        "width": 512,
+        "height": 384,
+        "frames": 17,
+        "fps": 8,
+        "steps": 20,
+        "seed": 42,
+        "prompt": "A continuous hand-painted storybook animation. The single yellow striped cat visibly raises its head from the grass, opens both eyes, and curls its striped tail upward, moving from the first pose to the distinct final pose. The head moves clearly upward; the tail changes shape clearly. The front paws stay on the ground. Keep the brown boots, red hat band, blue feather and patterned scarf. Preserve the same tree, grass, drawing texture and one-character composition. Smooth visible character motion. Fixed camera.",
+        "negative_prompt": "static image, frozen character, no movement, slideshow, zoom only, new characters, rabbit, extra limbs, duplicate cat, morphing face, changed clothing, text, watermark",
+        "end_source_sha256": "e9e3ef096d78c982ce56b311d8d7df5e5600fc3699f55453fa9a8b13bb4e26ea",
+        "end_input_sha256": "262b161cd7eed03076ad1260dfd5228b05a4378cbbc08335bd52c6a8c8c7753c"
+      },
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_ed4c799ff33f4f06abc6f309c014d590",
+      "step": "page_understanding",
+      "status": "needs_review",
+      "model_version": "mlx-community/Qwen3-VL-4B-Instruct-4bit",
+      "attempts": 1,
+      "input_hash": "77ec29c525f410175dd95daf9e4932ceb5f1883cbae0ee71a7e537e0f76e353d",
+      "usage": {
+        "local_inference_ms": 17909,
+        "peak_memory_bytes": 4008758171,
+        "external_calls": 0
+      },
+      "error": null,
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    },
+    {
+      "run_id": "run_f87aa3865d354382b3dbba76f516e95e",
+      "step": "narration_render",
+      "status": "failed",
+      "model_version": null,
+      "attempts": 1,
+      "input_hash": "f1d30279d30ff4056e57e9668bf554b8d9148e1bcaa6ded2aeef189bada045f5",
+      "usage": {},
+      "error": {
+        "code": "LOCAL_MODEL_FAILED",
+        "message": "本地模型推理失败，检查本地process.log。",
+        "retryable": false
+      },
+      "native_profile": null,
+      "has_video_task_id": false,
+      "known_accepted_cloud_tasks": 0
+    }
+  ],
+  "denominators": "Different models/frame counts/prompts/profiles are not pooled as a single speed or quality benchmark.",
+  "cost_scope": "Local external video API charge=0 for local inference only; device energy/amortization not measured. Agnes charges remain unknown without account bill. Built-in image_gen price not reported."
+}

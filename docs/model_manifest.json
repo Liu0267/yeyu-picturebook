@@ -1,0 +1,39 @@
+{
+ "project": "页语 · 原作可信互动伴读系统",
+ "note": "全部模型为公开开源权重，随包不分发；按repo_id下载后用sha256_files校验即与开发环境一致。",
+ "snapshots": [
+  {
+   "name": "Qwen3-VL-4B-Instruct-4bit",
+   "repo_id": "mlx-community/Qwen3-VL-4B-Instruct-4bit",
+   "license": "Apache-2.0",
+   "sha256_files": {
+    "Wan2.2-TI2V-5B-Q4_K_S.gguf": "ab4195ecd022e57455672771d8ec14c2589efc9ddd6b96c3578fbb326797bdbb",
+    "umt5-xxl-encoder-Q4_K_M.gguf": "17cf97a5bbbc60a646d6105b832b6f657ce904a8a1ad970e4b59df0c67584a40"
+   }
+  },
+  {
+   "name": "Qwen3-TTS-1.7B-CustomVoice-4bit",
+   "repo_id": "mlx-community/Qwen3-TTS-12Hz-1.7B-CustomVoice-4bit",
+   "license": "Apache-2.0",
+   "sha256_files": {
+    "model.safetensors": "45a5b5ccd3cc473b9d3890ea922937036b56b948e8bd8c678e725329abdd1d00"
+   }
+  },
+  {
+   "name": "Xiaomi-OCR-0",
+   "repo_id": "xiaomi-research/Xiaomi-OCR-0",
+   "license": "Apache-2.0",
+   "sha256_files": {
+    "model.safetensors": "d4551e9f6127ac9e35cff7b4f7a72a90410e03e6c8676a36f0e2b7eaeb5d5348"
+   }
+  },
+  {
+   "name": "whisper-small-mlx",
+   "repo_id": "mlx-community/whisper-small-mlx",
+   "license": "MIT",
+   "sha256_files": {
+    "weights.npz": "55b6674c9b339702d486e2b1573839a66f8ec8f821ed2886993ef717a86b09f5"
+   }
+  }
+ ]
+}

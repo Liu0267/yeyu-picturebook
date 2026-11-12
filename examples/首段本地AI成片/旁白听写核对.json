@@ -1,0 +1,98 @@
+{
+  "method": "local_whisper_small_independent_transcription",
+  "expected_text": "穿靴子的猫趴在树旁，等候着。",
+  "recognized_text": "穿靴子的猫,趴在樹旁,等候着。",
+  "normalized_match": false,
+  "elapsed_s": 9.019,
+  "external_calls": 0,
+  "limitation": "单句辅助听写，不是人工听音或全书准确率。",
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 5.8,
+      "text": "穿靴子的猫,趴在樹旁,等候着。",
+      "words": [
+        {
+          "word": "穿",
+          "start": 0.0,
+          "end": 0.7,
+          "probability": 0.9765625
+        },
+        {
+          "word": "靴",
+          "start": 0.7,
+          "end": 1.04,
+          "probability": 0.6416015625
+        },
+        {
+          "word": "子",
+          "start": 1.04,
+          "end": 1.28,
+          "probability": 0.99951171875
+        },
+        {
+          "word": "的",
+          "start": 1.28,
+          "end": 1.4,
+          "probability": 0.99267578125
+        },
+        {
+          "word": "猫,",
+          "start": 1.4,
+          "end": 2.36,
+          "probability": 0.8212890625
+        },
+        {
+          "word": "趴",
+          "start": 2.48,
+          "end": 2.84,
+          "probability": 0.88525390625
+        },
+        {
+          "word": "在",
+          "start": 2.84,
+          "end": 3.1,
+          "probability": 0.9990234375
+        },
+        {
+          "word": "樹",
+          "start": 3.1,
+          "end": 3.42,
+          "probability": 0.63916015625
+        },
+        {
+          "word": "旁,",
+          "start": 3.42,
+          "end": 4.16,
+          "probability": 0.998046875
+        },
+        {
+          "word": "等",
+          "start": 4.76,
+          "end": 5.08,
+          "probability": 0.99609375
+        },
+        {
+          "word": "候",
+          "start": 5.08,
+          "end": 5.54,
+          "probability": 0.99072265625
+        },
+        {
+          "word": "着。",
+          "start": 5.54,
+          "end": 5.8,
+          "probability": 0.51904296875
+        }
+      ]
+    }
+  ],
+  "orthography_review": {
+    "method": "assistant_explicit_single_character_orthography_comparison",
+    "mapping": {
+      "樹": "树"
+    },
+    "equivalent_after_mapping": true,
+    "note": "保留原始听写和normalized_match=false；仅樹/树字形与标点差异，不修改原始识别结果，不代替人工试听。"
+  }
+}
