@@ -26,6 +26,7 @@ import hashlib
 import json
 import os
 import random
+import re
 import subprocess
 import sys
 import time
@@ -93,8 +94,13 @@ def _call(method: str, path: str, payload: dict | None = None, timeout: int = 60
     })
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         raw = resp.read().decode("utf-8", "replace")
-    if dump_raw:
+    if dump_raw or os.environ.get("MINIMAX_DUMP"):
         print(raw, file=sys.stderr)
+        raw_dir = ROOT / "var" / "raw"
+        raw_dir.mkdir(parents=True, exist_ok=True)
+        stamp = time.strftime("%Y%m%dT%H%M%S")
+        tag = re.sub(r"[^A-Za-z0-9]+", "_", path)[:40].strip("_")
+        (raw_dir / f"{stamp}_{method}_{tag}.json").write_text(raw, encoding="utf-8")
     body = json.loads(raw)
     code = _pick(body, "base_resp", "status_code")
     if code not in (None, 0):
@@ -324,7 +330,7 @@ def main() -> int:
     s.add_argument("--first-frame", default=None)
     s.add_argument("--shot", default="")
     s.add_argument("--dry-run", action="store_true")
-    s.add_argument("--dump-raw", action="store_true")
+    s.add_argument("--dump-raw", action="store_true", help="打印并把原始响应存到 var/raw/")
     s.add_argument("--max-cny", type=float, default=None)
 
     w = sub.add_parser("watch", help="挂机轮询，失败告警")
