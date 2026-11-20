@@ -45,7 +45,18 @@ ROOT = Path(__file__).resolve().parent.parent
 LEDGER = ROOT / "var" / "video_tasks.json"
 OUT = ROOT / "var" / "video_out"
 BASE = os.environ.get("MINIMAX_BASE_URL", "https://api.minimax.cn").rstrip("/")
-KEY = os.environ.get("MINIMAX_API_KEY", "")
+def _read_key() -> str:
+    """环境变量优先；否则读 .secrets/minimax.key（该目录已 gitignore）。"""
+    key = os.environ.get("MINIMAX_API_KEY", "").strip()
+    if key:
+        return key
+    for cand in (ROOT / ".secrets" / "minimax.key", ROOT / "var" / "minimax.key"):
+        if cand.is_file():
+            return cand.read_text(encoding="utf-8").strip()
+    return ""
+
+
+KEY = _read_key()
 
 PRICE = {"480P": 0.16, "768P": 0.50, "2K": 0.80}
 ALLOWED = {
@@ -84,7 +95,13 @@ def _notify(msg: str) -> None:
 # ---------------------------------------------------------------- 账本
 
 def _load() -> dict[str, dict]:
-    return json.loads(LEDGER.read_text(encoding="utf-8")) if LEDGER.exists() else {}
+    data = json.loads(LEDGER.read_text(encoding="utf-8")) if LEDGER.exists() else {}
+    # 没有 task_id 的条目说明任务从未创建，不计费
+    for v in data.values():
+        if not v.get("task_id") and v.get("cost"):
+            v["estimated_cost"] = v.pop("cost")
+            v["cost"] = 0
+    return data
 
 
 def _save(data: dict[str, dict]) -> None:
@@ -107,7 +124,7 @@ def _dump_raw(tag: str, raw: str) -> None:
 
 def _call(method: str, path: str, payload: dict | None = None, timeout: int = 60) -> dict:
     if not KEY:
-        raise SystemExit("缺少 MINIMAX_API_KEY 环境变量")
+        raise SystemExit("缺少密钥：写入 .secrets/minimax.key，或 export MINIMAX_API_KEY=…")
     req = urllib.request.Request(
         f"{BASE}{path}",
         data=json.dumps(payload).encode() if payload is not None else None,
@@ -210,7 +227,7 @@ def submit(spec: Spec, dry_run: bool = False, max_cny: float | None = None) -> d
         "business_id": spec.business_id, "shot": spec.shot,
         "model": spec.model, "resolution": spec.resolution,
         "duration": spec.duration, "fingerprint": spec.fingerprint(),
-        "status": "submitting", "cost": spec.cost(),
+        "status": "submitting", "estimated_cost": spec.cost(), "cost": 0,
         "updated_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
     })
     _save(ledger)
@@ -240,7 +257,7 @@ def submit(spec: Spec, dry_run: bool = False, max_cny: float | None = None) -> d
         _notify(f"{spec.business_id} 响应无 task_id，需人工核对")
         raise SystemExit(f"未取到 task_id：{json.dumps(resp, ensure_ascii=False)[:400]}")
 
-    ledger[spec.business_id].update({"task_id": task_id, "status": "queued",
+    ledger[spec.business_id].update({"task_id": task_id, "status": "queued", "cost": spec.cost(),
                                      "submitted_at": time.strftime("%Y-%m-%dT%H:%M:%S")})
     _save(ledger)
     print(f"[提交] {spec.business_id} → task_id={task_id}（{spec.cost()} 元）")
