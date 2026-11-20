@@ -11,7 +11,7 @@ import argparse, json
 from pathlib import Path
 from PIL import Image
 
-RATIO = 1.8        # 864/480；2K 若不同，这里改一处
+RATIO = 16 / 9      # H3 2K 实测输出 2560x1440=16:9；480P 是 864x480=1.8，两者不同
 WIDTH = 1800       # 留足像素给 2K 生成
 
 
